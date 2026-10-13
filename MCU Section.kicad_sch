@@ -8672,6 +8672,12 @@
 		(uuid "9ffda318-b51f-47cc-b99a-c35c4a8af5a8")
 	)
 	(junction
+		(at 157.48 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03fcbbe2-5746-4e3d-896d-bc7ebda88584")
+	)
+	(junction
 		(at 166.37 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8904,12 +8910,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e6d39c5-9e67-4567-adef-70cfbf326e7e")
-	)
-	(junction
-		(at 157.48 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e7c6006-06fb-4702-bbf0-7b48ef4e217f")
 	)
 	(junction
 		(at 176.53 278.13)
@@ -9693,16 +9693,6 @@
 		)
 		(uuid "20b4ccba-8163-4b46-8337-f54db66b23af")
 	)
-	(polyline
-		(pts
-			(xy 247.396 190.754) (xy 247.396 195.326)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e662ca-9093-450e-9bb6-15fcd74ca530")
-	)
 	(wire
 		(pts
 			(xy 476.25 127) (xy 478.79 127)
@@ -10032,16 +10022,6 @@
 			(type default)
 		)
 		(uuid "3862fdb3-afde-4276-9603-35c9de1f0101")
-	)
-	(polyline
-		(pts
-			(xy 247.142 210.82) (xy 247.142 223.012)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c88185-f7db-42e4-a3a3-b7ac83300447")
 	)
 	(wire
 		(pts
@@ -10452,16 +10432,6 @@
 			(type default)
 		)
 		(uuid "57df47b8-4e04-4de5-b493-f5fee69be7a2")
-	)
-	(polyline
-		(pts
-			(xy 246.888 284.226) (xy 246.888 290.068)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "581578f1-0ff1-4b69-b487-90cc3b4ba0b2")
 	)
 	(wire
 		(pts
@@ -10985,6 +10955,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 298.45) (xy 245.11 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857b4aa5-eb0a-4d6e-bb76-2e10bf555a55")
+	)
+	(wire
+		(pts
 			(xy 496.57 127) (xy 499.11 127)
 		)
 		(stroke
@@ -11172,16 +11152,6 @@
 			(type default)
 		)
 		(uuid "90689f96-aff6-4440-8b7e-da3fc57215e3")
-	)
-	(polyline
-		(pts
-			(xy 247.142 198.882) (xy 247.142 207.772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9071551a-34a2-42b9-a785-0c8226342527")
 	)
 	(wire
 		(pts
@@ -11635,6 +11605,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 295.91) (xy 245.11 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1100a00-6eb0-4791-9fbf-d5ce24170181")
+	)
+	(wire
+		(pts
 			(xy 314.96 266.7) (xy 314.96 269.24)
 		)
 		(stroke
@@ -11962,16 +11942,6 @@
 			(type default)
 		)
 		(uuid "cafbbe2b-b0d8-465b-85ec-de9fb5b54edf")
-	)
-	(polyline
-		(pts
-			(xy 247.142 226.314) (xy 247.142 238.252)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb038757-757f-4827-8ae2-985915766307")
 	)
 	(wire
 		(pts
@@ -13302,6 +13272,17 @@
 		)
 		(uuid "ae576456-8fd7-4087-8b4d-3393a96f3f88")
 	)
+	(hierarchical_label "usb_vbus_det"
+		(shape input)
+		(at 251.46 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6acd26c-5165-4ea7-83f3-5aff243cce3e")
+	)
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 190.5 184.15 180)
@@ -13356,6 +13337,17 @@
 			(justify right)
 		)
 		(uuid "dff3385c-44c6-4487-8112-d302e831741b")
+	)
+	(hierarchical_label "VADC"
+		(shape passive)
+		(at 251.46 298.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd145ae0-8bbd-4c56-90f2-1f8c5d7119c9")
 	)
 	(hierarchical_label "DSI_CLKN"
 		(shape output)
@@ -23893,6 +23885,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e1ed0d8-236f-4463-8b96-86edd2a8a8ec")
+		(property "Reference" "#PWR0235"
+			(at 157.48 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 157.48 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2972b04-8834-4cb7-abb5-93dfc8979fe4")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/428647ab-2359-4bbe-93ac-b947dd4182f9"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 247.65 0)
 		(unit 1)
@@ -31424,83 +31493,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/428647ab-2359-4bbe-93ac-b947dd4182f9"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 157.48 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b462f8dd-4199-4696-b50d-bd502ac689da")
-		(property "Reference" "#PWR096"
-			(at 157.48 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP_3V3"
-			(at 157.48 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 157.48 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1933c386-da45-4832-85ed-ba5b1a215165")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/428647ab-2359-4bbe-93ac-b947dd4182f9"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)

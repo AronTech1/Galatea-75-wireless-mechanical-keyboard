@@ -8893,145 +8893,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -9128,6 +8989,145 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -9383,6 +9383,12 @@
 		(uuid "231dabe6-fb05-4e2c-a065-ebad8c892427")
 	)
 	(junction
+		(at 33.02 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c60060-1d92-4e69-b0fd-0d2d99af0f61")
+	)
+	(junction
 		(at 306.07 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9401,10 +9407,10 @@
 		(uuid "3c65a742-0294-4360-84bd-84565f203b2a")
 	)
 	(junction
-		(at 45.72 204.47)
+		(at 43.18 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4036dd00-a4fd-4aef-b091-a5fe0cfefe26")
+		(uuid "3e0e4b97-ade5-4a4f-8fca-268f511161ec")
 	)
 	(junction
 		(at 83.82 152.4)
@@ -9539,6 +9545,12 @@
 		(uuid "bc89a312-fd04-4f41-913e-bd0f73944d6f")
 	)
 	(junction
+		(at 45.72 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f868de-bb79-4e89-bf11-80e74e6d5e27")
+	)
+	(junction
 		(at 33.02 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9555,12 +9567,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc59b28d-f8c0-4f2b-a18a-6f6b34a76e5b")
-	)
-	(junction
-		(at 33.02 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc94d237-0afe-43a3-a0e4-7fe4697ef8c5")
 	)
 	(junction
 		(at 344.17 133.35)
@@ -10022,6 +10028,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 325.12) (xy 43.18 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0a2951-ddef-4623-b1e3-2c247829ce58")
+	)
+	(wire
+		(pts
 			(xy 77.47 266.7) (xy 77.47 259.08)
 		)
 		(stroke
@@ -10199,6 +10215,16 @@
 			(type default)
 		)
 		(uuid "3fab036e-9bc6-4fe1-a2da-06adc9f4ef86")
+	)
+	(wire
+		(pts
+			(xy 48.26 326.39) (xy 43.18 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411892dc-3557-44cc-9ad5-bdc461dbec3c")
 	)
 	(wire
 		(pts
@@ -10742,16 +10768,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 327.66) (xy 43.18 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842d19c9-ea26-4f8e-840c-64a3dd759d42")
-	)
-	(wire
-		(pts
 			(xy 344.17 133.35) (xy 341.63 133.35)
 		)
 		(stroke
@@ -11119,6 +11135,16 @@
 			(type default)
 		)
 		(uuid "a1868d7b-44d9-4698-bb5c-7d92fdaac354")
+	)
+	(wire
+		(pts
+			(xy 43.18 326.39) (xy 43.18 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fcf0b5-eea6-457b-900b-2eed3e4ff3ff")
 	)
 	(wire
 		(pts
@@ -11832,7 +11858,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 327.66) (xy 48.26 328.93)
+			(xy 48.26 326.39) (xy 48.26 328.93)
 		)
 		(stroke
 			(width 0)
@@ -13669,83 +13695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 33.02 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a33aba4-18f7-45da-a183-c8f4a2c40cfc")
-		(property "Reference" "#PWR07"
-			(at 33.02 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Core_5V"
-			(at 33.02 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11da3690-5aaf-41e6-9591-f5500dcd025c")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 350.52 0)
 		(unit 1)
@@ -14683,83 +14632,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
 					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 306.07 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b099148-e38b-4c62-9a7b-08b40a880d08")
-		(property "Reference" "#PWR057"
-			(at 306.07 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 306.07 34.544 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 306.07 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 306.07 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83d32a82-07b3-411b-b2ae-0e2b5712e09c")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17116,6 +16988,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 346.71 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d353de0-f828-4a92-bbe5-ca22c1de4862")
+		(property "Reference" "#PWR0247"
+			(at 346.71 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 346.71 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcde44ee-57b1-4f61-9dbf-1dac620723ac")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 48.26 331.47 0)
 		(unit 1)
@@ -17429,7 +17378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:VBUS")
 		(at 45.72 204.47 0)
 		(unit 1)
 		(body_style 1)
@@ -17438,8 +17387,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "43c349fd-2431-4b20-9237-ce6a541b913f")
-		(property "Reference" "#PWR01"
+		(uuid "45ad2222-bc0d-4611-91e0-08c96e3941e7")
+		(property "Reference" "#PWR0251"
 			(at 45.72 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -17450,8 +17399,8 @@
 				)
 			)
 		)
-		(property "Value" "Core_5V"
-			(at 45.72 200.66 0)
+		(property "Value" "SYS"
+			(at 45.72 200.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17482,7 +17431,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 45.72 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -17494,12 +17443,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ca06583-52f5-414d-ad06-80308bf1cbc7")
+			(uuid "4b2a1f3e-f36f-4111-84db-66ed408b3306")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR01")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -20587,6 +20536,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 306.07 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71ce6573-59a6-4eec-b7bd-78cb2798793a")
+		(property "Reference" "#PWR0244"
+			(at 306.07 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 306.07 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 306.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1d6d0df-32bb-490e-89bf-cf5d2bb4da10")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EC11E18244AU:EC11E18244AU")
 		(at 69.85 340.36 270)
 		(unit 1)
@@ -21848,6 +21874,83 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 33.02 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8244525e-93de-4789-af98-e313d0c80936")
+		(property "Reference" "#PWR0250"
+			(at 33.02 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYS"
+			(at 33.02 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0424cbf-eb6b-4ff4-ade2-45665e6eda1d")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -23293,6 +23396,83 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 325.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ea0dbb0-0285-45e3-a86b-acbc31e7d6d2")
+		(property "Reference" "#PWR0249"
+			(at 43.18 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 43.18 321.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "276cf649-c958-4024-9d61-f1fa0def8aff")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -24876,6 +25056,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 372.11 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a20913e9-3f01-4759-85dd-92ad7f4f7ec0")
+		(property "Reference" "#PWR0248"
+			(at 372.11 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 372.11 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 372.11 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aede95f9-c48f-4ed1-bcec-9d87328682f3")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 317.5 322.58 0)
 		(unit 1)
@@ -25543,7 +25800,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 372.11 167.64 0)
+		(at 321.31 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25551,10 +25808,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab0dbc8b-657a-4c51-85bb-34522bf115e0")
-		(property "Reference" "#PWR076"
-			(at 372.11 171.45 0)
+		(uuid "a7cda56e-35ee-44d4-a144-83f8a58bbe42")
+		(property "Reference" "#PWR0246"
+			(at 321.31 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25564,8 +25820,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 372.11 162.56 0)
+		(property "Value" "ESP_3V3"
+			(at 321.31 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25575,7 +25831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 167.64 0)
+			(at 321.31 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25586,7 +25842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 167.64 0)
+			(at 321.31 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25597,7 +25853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 372.11 167.64 0)
+			(at 321.31 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25608,12 +25864,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b656639-c6fa-49d8-a9d4-f637d9950c81")
+			(uuid "a1b736c3-76ee-4488-a89c-b57ded1aed97")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR076")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -28453,84 +28709,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 346.71 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3ccc6fd-c63a-42bc-a779-ddaa990d8264")
-		(property "Reference" "#PWR075"
-			(at 346.71 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 346.71 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 346.71 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39667830-cdde-4598-adeb-3264ee85bab6")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 194.31 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -29435,84 +29613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 321.31 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf14826a-3959-4a97-b574-ce82d82d92e3")
-		(property "Reference" "#PWR074"
-			(at 321.31 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 321.31 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 321.31 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 321.31 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 321.31 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "693e8921-e760-4919-87f8-bb340253dffe")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 86.36 270)
 		(unit 1)
@@ -29983,84 +30083,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 295.91 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d619f117-81aa-4969-85cf-ac40364509ed")
-		(property "Reference" "#PWR073"
-			(at 295.91 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 295.91 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 295.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 295.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d740c1dc-ce03-43ec-a155-511faf8f48ff")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -30690,83 +30712,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 48.26 327.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1756a17-3696-4639-bd89-b0fe300e0547")
-		(property "Reference" "#PWR069"
-			(at 48.26 331.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 324.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0f99b51-90f0-4c25-ae36-c6021adc91a8")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -32873,7 +32818,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 43.18 327.66 0)
+		(at 295.91 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32881,9 +32826,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f33cb08e-c99d-4efd-aded-80176c0e4f79")
-		(property "Reference" "#PWR068"
-			(at 43.18 331.47 0)
+		(uuid "f3cbfdbb-bc24-42ab-9e17-551bbdd7a14a")
+		(property "Reference" "#PWR0245"
+			(at 295.91 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32893,8 +32838,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 43.18 324.104 0)
+		(property "Value" "ESP_3V3"
+			(at 295.91 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32904,7 +32849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 327.66 0)
+			(at 295.91 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32915,7 +32860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 327.66 0)
+			(at 295.91 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32926,7 +32871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 43.18 327.66 0)
+			(at 295.91 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32937,12 +32882,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2abbe253-f821-483a-a24d-b4a4aec5649b")
+			(uuid "515c8919-18fd-424a-b5c6-be7a68f5547f")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "#PWR068")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
