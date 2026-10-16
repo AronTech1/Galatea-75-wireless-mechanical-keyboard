@@ -188,6 +188,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.006 130.81) (xy 188.214 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118e8827-713c-4f4a-b3c5-ddc6523151d9")
+	)
+	(wire
+		(pts
 			(xy 77.47 105.156) (xy 85.344 105.156)
 		)
 		(stroke
@@ -458,16 +468,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 126.746) (xy 188.214 126.746)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9a7b05-4ab6-47d0-85b3-c77e9d0916b8")
-	)
-	(wire
-		(pts
 			(xy 175.006 115.316) (xy 188.214 115.316)
 		)
 		(stroke
@@ -598,6 +598,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.006 127) (xy 188.214 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9520b2f-ecf0-4526-972a-4bd7bdede87a")
+	)
+	(wire
+		(pts
 			(xy 162.56 135.89) (xy 162.56 140.716)
 		)
 		(stroke
@@ -685,16 +695,6 @@
 			(type default)
 		)
 		(uuid "ee2c6a60-2477-4b8d-931b-781ca4d0df6d")
-	)
-	(wire
-		(pts
-			(xy 175.006 130.556) (xy 188.214 130.556)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e87333-5f98-4776-87c1-83c67a7a5083")
 	)
 	(wire
 		(pts
@@ -964,66 +964,6 @@
 				(justify right)
 			)
 		)
-		(pin "DSI_CLKN" output
-			(at 175.006 130.556 0)
-			(uuid "d232a20f-2b49-4f8f-805d-6d7b896d806b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_CLKP" output
-			(at 175.006 126.746 0)
-			(uuid "110c38c4-d95a-47b4-8c35-715788989b5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_DATAN0" output
-			(at 151.13 135.89 270)
-			(uuid "0fdca4b8-d819-44ad-a2c4-09252000b9b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAN1" output
-			(at 154.94 135.89 270)
-			(uuid "e515af97-605e-4e0c-ac34-5ce449095024")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAP0" output
-			(at 147.32 135.89 270)
-			(uuid "d8c1b542-1bcd-47ad-bbaa-2e84ad3474e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAP1" output
-			(at 158.75 135.89 270)
-			(uuid "a32eebe1-927f-40fe-90d5-17c259453677")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_BL_PWM" input
 			(at 162.56 135.89 270)
 			(uuid "0679045b-8288-4322-bb23-8da0bc8aaf2b")
@@ -1047,6 +987,66 @@
 		(pin "VADC" passive
 			(at 85.344 124.46 180)
 			(uuid "521eecff-8b98-445b-ae2e-547e027b2d63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA0_N" output
+			(at 151.13 135.89 270)
+			(uuid "e2826882-72d2-4c4e-9db0-8fe87f58f43c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA0_P" output
+			(at 147.32 135.89 270)
+			(uuid "3312ab7b-22d0-45f0-92ae-e68e39d27432")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_CLK_N" output
+			(at 175.006 127 0)
+			(uuid "393898ef-faac-4e7d-b5bc-4cee7acb87cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI_CLK_P" output
+			(at 175.006 130.81 0)
+			(uuid "d8a16278-b006-4cd9-b034-b7d7f16abb33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI_DATA1_N" output
+			(at 154.94 135.89 270)
+			(uuid "e40473d8-a98b-43f3-b292-b0176569c32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA1_P" output
+			(at 158.75 135.89 270)
+			(uuid "0005bd4d-151f-4cb7-b22f-6c71f1098e7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,69 +1554,69 @@
 				(justify left)
 			)
 		)
-		(pin "DSI_CLKN" input
-			(at 188.214 126.746 180)
-			(uuid "fbf38e0e-c0ef-4a95-8eef-ccd7f773a590")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_CLKP" input
-			(at 188.214 130.556 180)
-			(uuid "00914489-122d-4062-9a7d-1b3eca953a85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAN0" input
-			(at 214.63 135.89 270)
-			(uuid "1e691d16-37e6-48b7-bb17-0169d4edc560")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAN1" input
-			(at 210.82 135.89 270)
-			(uuid "012020db-5595-4cea-9b38-47d4a8df1671")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAP0" input
-			(at 218.44 135.89 270)
-			(uuid "4aac5ec0-2f53-4dd9-bfa6-3d91cd5cc103")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_DATAP1" input
-			(at 207.01 135.89 270)
-			(uuid "b129716a-967a-46f9-a3fd-c4c328b3f7b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_BL_PWM" input
 			(at 203.2 135.89 270)
 			(uuid "92bd6932-3d13-44d1-b7c9-872c1ff790c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA0_N" input
+			(at 214.63 135.89 270)
+			(uuid "22eced4e-278e-48de-bdd8-b60c2d1adf4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA0_P" input
+			(at 218.44 135.89 270)
+			(uuid "cca64bc9-80a4-4866-97d5-e621dd27a580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_CLK_N" input
+			(at 188.214 127 180)
+			(uuid "a30fd51c-aebe-438c-b646-62d0e9280e79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_CLK_P" input
+			(at 188.214 130.81 180)
+			(uuid "416fa45a-9bb5-42b9-8dc3-518b30004aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA1_N" input
+			(at 210.82 135.89 270)
+			(uuid "abab5551-f207-43fa-98fe-15cdc273c383")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_DATA1_P" input
+			(at 207.01 135.89 270)
+			(uuid "799a577b-53f2-440a-aab6-2ce867ec663d")
 			(effects
 				(font
 					(size 1.27 1.27)

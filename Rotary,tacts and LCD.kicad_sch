@@ -12467,7 +12467,7 @@
 			)
 		)
 	)
-	(hierarchical_label "DSI_CLKP"
+	(hierarchical_label "DSI_CLK_P"
 		(shape input)
 		(at 208.28 99.06 180)
 		(effects
@@ -12489,7 +12489,7 @@
 		)
 		(uuid "230df4ae-4211-40e2-99ce-b791f5f2f901")
 	)
-	(hierarchical_label "DSI_DATAP1"
+	(hierarchical_label "DSI_DATA1_P"
 		(shape input)
 		(at 208.28 91.44 180)
 		(effects
@@ -12511,7 +12511,7 @@
 		)
 		(uuid "4e91b6fe-7c45-4075-96cf-c5370dc7ea09")
 	)
-	(hierarchical_label "DSI_CLKN"
+	(hierarchical_label "DSI_CLK_N"
 		(shape input)
 		(at 208.28 96.52 180)
 		(effects
@@ -12544,7 +12544,7 @@
 		)
 		(uuid "6b041478-a76f-4701-be42-15745af3fab8")
 	)
-	(hierarchical_label "DSI_DATAN0"
+	(hierarchical_label "DSI_DATA0_N"
 		(shape input)
 		(at 208.28 81.28 180)
 		(effects
@@ -12566,7 +12566,7 @@
 		)
 		(uuid "80517528-263f-4d2c-9917-5bb23b2f3ed4")
 	)
-	(hierarchical_label "DSI_DATAN1"
+	(hierarchical_label "DSI_DATA1_N"
 		(shape input)
 		(at 208.28 88.9 180)
 		(effects
@@ -12621,7 +12621,7 @@
 		)
 		(uuid "b5798a7c-26ac-4d7a-8101-a751833207a9")
 	)
-	(hierarchical_label "DSI_DATAP0"
+	(hierarchical_label "DSI_DATA0_P"
 		(shape input)
 		(at 208.28 83.82 180)
 		(effects

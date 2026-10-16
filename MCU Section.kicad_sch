@@ -13121,16 +13121,6 @@
 		)
 		(uuid "38541b55-b565-4fd5-bfdb-ed068bed8a4c")
 	)
-	(label "UART_TX"
-		(at 453.39 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a55bafb-2c6a-48bd-9bbd-b05284f99c96")
-	)
 	(label "CSI_REXT"
 		(at 210.82 369.57 0)
 		(effects
@@ -13170,6 +13160,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c739f51-ea69-49c8-8822-77fd5e79dcde")
+	)
+	(label "C6_U0TXD"
+		(at 453.39 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52f6f358-e9d6-4b35-911c-3a7ec95e1fa4")
 	)
 	(label "ESP_EN"
 		(at 92.71 289.56 0)
@@ -13408,6 +13408,16 @@
 		)
 		(uuid "b9969ccd-9040-4994-b7fb-a6aeec20b536")
 	)
+	(label "C6_U0RXD"
+		(at 453.39 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfb34715-6376-41e4-b07f-1c57bbf56b16")
+	)
 	(label "DSI_REXT"
 		(at 210.82 364.49 0)
 		(effects
@@ -13417,16 +13427,6 @@
 			(justify left bottom)
 		)
 		(uuid "c5506530-fcc2-42c3-83cd-57bfb6679579")
-	)
-	(label "UART_RX"
-		(at 453.39 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c76bdc4b-b01b-4136-849c-9a74a02b6e44")
 	)
 	(label "DSI_REXT"
 		(at 180.34 303.53 0)
@@ -13533,7 +13533,7 @@
 		)
 		(uuid "21b966b9-6694-4cd1-a609-9228baeff13d")
 	)
-	(hierarchical_label "DSI_DATAN1"
+	(hierarchical_label "DSI_DATA1_N"
 		(shape output)
 		(at 189.23 308.61 180)
 		(effects
@@ -13555,7 +13555,7 @@
 		)
 		(uuid "492c47a3-0c3b-464f-ba63-89332362b687")
 	)
-	(hierarchical_label "DSI_DATAP1"
+	(hierarchical_label "DSI_DATA1_P"
 		(shape output)
 		(at 189.23 306.07 180)
 		(effects
@@ -13577,7 +13577,7 @@
 		)
 		(uuid "629e7535-5aac-4d28-9aa0-1a8d6614a00c")
 	)
-	(hierarchical_label "DSI_DATAN0"
+	(hierarchical_label "DSI_DATA0_N"
 		(shape output)
 		(at 189.23 316.23 180)
 		(effects
@@ -13621,7 +13621,7 @@
 		)
 		(uuid "7ca8a3f1-c7f7-4431-bd99-5911457620b5")
 	)
-	(hierarchical_label "DSI_CLKP"
+	(hierarchical_label "DSI_CLK_P"
 		(shape output)
 		(at 189.23 313.69 180)
 		(effects
@@ -13676,7 +13676,7 @@
 		)
 		(uuid "99278da9-f39c-4395-80b2-036a4cded6eb")
 	)
-	(hierarchical_label "DSI_DATAP0"
+	(hierarchical_label "DSI_DATA0_P"
 		(shape output)
 		(at 189.23 318.77 180)
 		(effects
@@ -13775,7 +13775,7 @@
 		)
 		(uuid "fd145ae0-8bbd-4c56-90f2-1f8c5d7119c9")
 	)
-	(hierarchical_label "DSI_CLKN"
+	(hierarchical_label "DSI_CLK_N"
 		(shape output)
 		(at 189.23 311.15 180)
 		(effects
