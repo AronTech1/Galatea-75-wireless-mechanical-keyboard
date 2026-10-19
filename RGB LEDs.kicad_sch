@@ -1838,12 +1838,6 @@
 		(uuid "15695e48-1532-4df5-8a23-54ddaa6ae746")
 	)
 	(junction
-		(at 469.9 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18ecd64c-d157-4102-9f3e-aa0f7a013a0b")
-	)
-	(junction
 		(at 331.47 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2210,18 +2204,6 @@
 		(uuid "840839ed-0b0b-4307-836d-623b36a507f5")
 	)
 	(junction
-		(at 469.9 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f0bde9-7c8b-467a-9c8d-bd50fd1e6d1c")
-	)
-	(junction
-		(at 523.24 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86a5feae-5573-4468-a036-21a8cd831cc3")
-	)
-	(junction
 		(at 350.52 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2354,12 +2336,6 @@
 		(uuid "b563f3bf-a4ee-4687-ba79-fc709faa8613")
 	)
 	(junction
-		(at 523.24 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6fff067-d8e0-49dd-8daf-b16b74b71d64")
-	)
-	(junction
 		(at 67.31 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2450,12 +2426,6 @@
 		(uuid "c7497ba4-29c4-43a5-aaf4-a32c80bbe092")
 	)
 	(junction
-		(at 469.9 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c789da75-8007-4eeb-aa02-6de507d80d6d")
-	)
-	(junction
 		(at 408.94 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2496,12 +2466,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0d28a48-7553-4a7e-9651-216fc6f7e25e")
-	)
-	(junction
-		(at 523.24 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d165d5c9-2147-4291-b4bb-57ba56553add")
 	)
 	(junction
 		(at 469.9 173.99)
@@ -2574,12 +2538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcf3094d-b0a6-42bb-8038-bc28d27039aa")
-	)
-	(junction
-		(at 490.22 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df433c49-9db4-48b2-ba24-69664a75417d")
 	)
 	(junction
 		(at 82.55 256.54)
@@ -2706,6 +2664,10 @@
 	(no_connect
 		(at 82.55 177.8)
 		(uuid "74ec5015-bd28-40d0-bc46-5bf84de6374e")
+	)
+	(no_connect
+		(at 128.27 187.96)
+		(uuid "8e3229f8-4698-4518-b493-1e6a12f2a4d1")
 	)
 	(no_connect
 		(at 128.27 142.24)
@@ -2895,16 +2857,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 231.14) (xy 514.35 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09258c43-70b8-44a6-b4b0-5f347b18ceaa")
-	)
-	(wire
-		(pts
 			(xy 270.51 212.09) (xy 270.51 205.74)
 		)
 		(stroke
@@ -2985,16 +2937,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 205.74) (xy 514.35 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6fabdc-da33-4414-bab5-94526cebed2b")
-	)
-	(wire
-		(pts
 			(xy 400.05 205.74) (xy 401.32 205.74)
 		)
 		(stroke
@@ -3052,16 +2994,6 @@
 			(type default)
 		)
 		(uuid "12220d53-38a9-4dea-8c78-1291d7dbcf19")
-	)
-	(wire
-		(pts
-			(xy 510.54 218.44) (xy 510.54 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "126fdce2-2354-49f3-9608-650083a514c7")
 	)
 	(wire
 		(pts
@@ -3332,16 +3264,6 @@
 			(type default)
 		)
 		(uuid "2031087b-ba72-45ca-a0b7-f1c702d03079")
-	)
-	(wire
-		(pts
-			(xy 510.54 205.74) (xy 510.54 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222bab40-65cc-4c0e-8e7b-83eacb124ad5")
 	)
 	(wire
 		(pts
@@ -3725,16 +3647,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 205.74) (xy 523.24 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32affca0-46fa-457c-9829-8e44908039e5")
-	)
-	(wire
-		(pts
 			(xy 143.51 177.8) (xy 128.27 177.8)
 		)
 		(stroke
@@ -3762,16 +3674,6 @@
 			(type default)
 		)
 		(uuid "33ddabf5-7a9c-44f4-9ab0-7ddc4b9823ed")
-	)
-	(wire
-		(pts
-			(xy 510.54 212.09) (xy 469.9 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34345e7f-b544-438c-a7e9-28a970454fef")
 	)
 	(wire
 		(pts
@@ -4425,16 +4327,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 187.96) (xy 143.51 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faf4d60-4c19-4b8c-9ee9-353a65191def")
-	)
-	(wire
-		(pts
 			(xy 440.69 193.04) (xy 441.96 193.04)
 		)
 		(stroke
@@ -4675,16 +4567,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 218.44) (xy 514.35 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bcd47b7-382f-48f4-8ad4-192999336d14")
-	)
-	(wire
-		(pts
 			(xy 408.94 199.39) (xy 388.62 199.39)
 		)
 		(stroke
@@ -4695,16 +4577,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 218.44) (xy 523.24 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c669c4d-01c8-44dd-827a-879f6489dc62")
-	)
-	(wire
-		(pts
 			(xy 369.57 218.44) (xy 373.38 218.44)
 		)
 		(stroke
@@ -4712,16 +4584,6 @@
 			(type default)
 		)
 		(uuid "6cc058f9-8c6c-46d7-a2f2-8c69cf8c28e2")
-	)
-	(wire
-		(pts
-			(xy 510.54 180.34) (xy 510.54 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d401156-a095-425f-b66a-d00a9ababb7f")
 	)
 	(wire
 		(pts
@@ -4935,16 +4797,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 218.44) (xy 523.24 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77384ed9-1931-40c4-b721-c564afc04e26")
-	)
-	(wire
-		(pts
 			(xy 251.46 212.09) (xy 270.51 212.09)
 		)
 		(stroke
@@ -5045,16 +4897,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 180.34) (xy 523.24 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c477549-d4ec-4fd0-b19c-30f771d2a685")
-	)
-	(wire
-		(pts
 			(xy 429.26 218.44) (xy 433.07 218.44)
 		)
 		(stroke
@@ -5102,16 +4944,6 @@
 			(type default)
 		)
 		(uuid "7ebd6564-bebe-482f-9642-12a39fd8465c")
-	)
-	(wire
-		(pts
-			(xy 523.24 205.74) (xy 523.24 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef136c8-68d0-4fce-bf7d-df963131a887")
 	)
 	(wire
 		(pts
@@ -5372,16 +5204,6 @@
 			(type default)
 		)
 		(uuid "8bed39e2-e8ce-47a3-ae8b-95f1e017fc4f")
-	)
-	(wire
-		(pts
-			(xy 510.54 180.34) (xy 514.35 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c388688-440e-48fd-8e90-fecd85d0d84a")
 	)
 	(wire
 		(pts
@@ -6245,16 +6067,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 154.94) (xy 523.24 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45baf3e-1c11-4625-8cba-e2d970741bd4")
-	)
-	(wire
-		(pts
 			(xy 311.15 224.79) (xy 331.47 224.79)
 		)
 		(stroke
@@ -6262,16 +6074,6 @@
 			(type default)
 		)
 		(uuid "b5da0e9a-0896-430d-b695-2d4d3767f627")
-	)
-	(wire
-		(pts
-			(xy 469.9 186.69) (xy 510.54 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b603588b-1de3-4dc5-ba53-c14958877772")
 	)
 	(wire
 		(pts
@@ -6342,26 +6144,6 @@
 			(type default)
 		)
 		(uuid "b94cb71b-709f-48aa-b80d-50b456c81c06")
-	)
-	(wire
-		(pts
-			(xy 510.54 231.14) (xy 510.54 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b991c52f-7bf7-4345-88de-b34e6f6a1d3b")
-	)
-	(wire
-		(pts
-			(xy 521.97 180.34) (xy 523.24 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba77be8a-563c-4436-92a7-194cadc0eeee")
 	)
 	(wire
 		(pts
@@ -6585,16 +6367,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 231.14) (xy 523.24 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95c6876-d30f-4215-bccb-3e9ce196d9d8")
-	)
-	(wire
-		(pts
 			(xy 429.26 199.39) (xy 408.94 199.39)
 		)
 		(stroke
@@ -6802,16 +6574,6 @@
 			(type default)
 		)
 		(uuid "d36cf6ee-cc8b-4ea0-9e6e-c1f8c1f4283c")
-	)
-	(wire
-		(pts
-			(xy 510.54 224.79) (xy 469.9 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d39200b6-c014-4812-88e7-7042dc1b8f6f")
 	)
 	(wire
 		(pts
@@ -7052,16 +6814,6 @@
 			(type default)
 		)
 		(uuid "dd2019f1-1d14-4271-a1ca-6d52a05d8bbc")
-	)
-	(wire
-		(pts
-			(xy 510.54 237.49) (xy 490.22 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddba3b6e-08f7-4c5b-b93d-dac113475832")
 	)
 	(wire
 		(pts
@@ -8310,50 +8062,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "CS16"
-		(shape input)
-		(at 143.51 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "864c4c67-f93e-4b62-9d7d-7b0f04e89ac7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "CS16"
-		(shape input)
-		(at 523.24 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8745e66b-5d04-473e-b892-c252f85a130a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 523.24 154.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -9730,262 +9438,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
 					(reference "DW20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 518.16 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bee13b7-48fe-4746-bdfc-08e01f457123")
-		(property "Reference" "DW74"
-			(at 516.5725 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WHITE"
-			(at 516.5725 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2290"
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2290"
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 518.16 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6931df6a-c657-4f84-ac2f-61c8bcc7c356")
-		)
-		(pin "1"
-			(uuid "f18a64bc-298c-4234-9de5-f9c5063a70f8")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "DW74")
 					(unit 1)
 				)
 			)
@@ -13122,84 +12574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 133.35 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "296d57a4-b1e8-431e-a9b0-1df2a8f6cbf5")
-		(property "Reference" "#PWR026"
-			(at 133.35 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 133.35 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 133.35 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83fb6551-f2cf-4421-b597-6914ad097899")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 220.98 193.04 0)
 		(unit 1)
@@ -15839,262 +15213,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 518.16 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ba037bc-dbf3-4132-9760-f2f741fe1201")
-		(property "Reference" "DW84"
-			(at 516.5725 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WHITE"
-			(at 516.5725 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2290"
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2290"
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 518.16 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "60e72965-15cf-460b-9c63-6df7d20faea0")
-		)
-		(pin "1"
-			(uuid "43aad4b1-5cb4-4fa3-af27-51549cd1cc39")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "DW84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 298.45 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -16344,84 +15462,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
 					(reference "DW36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 82.55 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "554730e0-3f3c-4fd5-9656-f30097a229f7")
-		(property "Reference" "#PWR024"
-			(at 82.55 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 82.55 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c40319ae-0845-426a-8f78-ce4786d785e2")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17510,6 +16550,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 82.55 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f5c5aae-e772-4424-9cd9-a5e40d30f4e2")
+		(property "Reference" "#PWR0260"
+			(at 82.55 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 82.55 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 82.55 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea322594-8989-4ebd-a7c8-f689715f79b6")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 436.88 193.04 0)
 		(unit 1)
@@ -17767,7 +16884,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 67.31 107.95 0)
+		(at 133.35 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17775,9 +16892,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "61ba1e31-4332-42e2-9714-58977bbfe677")
-		(property "Reference" "#PWR020"
-			(at 67.31 111.76 0)
+		(uuid "64de8fe1-1237-47a1-967d-964d15e592eb")
+		(property "Reference" "#PWR0262"
+			(at 133.35 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17787,8 +16904,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 67.31 104.394 0)
+		(property "Value" "ESP_3V3"
+			(at 133.35 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17798,7 +16915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 107.95 0)
+			(at 133.35 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17809,7 +16926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 107.95 0)
+			(at 133.35 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17820,7 +16937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 67.31 107.95 0)
+			(at 133.35 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17831,12 +16948,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "28705232-a1cd-43b8-a88a-391909997357")
+			(uuid "a307e58f-a33e-42fc-9f34-da56e634d6b7")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "#PWR020")
+					(reference "#PWR0262")
 					(unit 1)
 				)
 			)
@@ -19103,6 +18220,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 107.95 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e82a1b9-87b5-43eb-8c1c-c18b7bc0d6f3")
+		(property "Reference" "#PWR0261"
+			(at 107.95 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 107.95 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22160294-ae55-4c47-81e5-e4d8dd5fd476")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 477.52 205.74 0)
 		(unit 1)
@@ -20121,84 +19315,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
 					(reference "DW62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7713dbbe-1b17-4fe7-ab70-be44b2c10c34")
-		(property "Reference" "#PWR023"
-			(at 57.15 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 57.15 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9e33ae7-6c07-460d-9ac1-a6af58261097")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21301,262 +20417,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
 					(reference "DW42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 518.16 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8917a590-8753-4784-bf19-5bd688950589")
-		(property "Reference" "DW31"
-			(at 516.5725 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WHITE"
-			(at 516.5725 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2290"
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2290"
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 518.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb0e7468-3a25-4356-9994-26495200020c")
-		)
-		(pin "1"
-			(uuid "0f30b3f0-59a0-44a2-bf67-e3ff57f24613")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "DW31")
 					(unit 1)
 				)
 			)
@@ -23670,262 +22530,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 518.16 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a232c144-7928-4dde-b376-373be43d1326")
-		(property "Reference" "DW60"
-			(at 516.5725 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WHITE"
-			(at 516.5725 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2290"
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2290"
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 518.16 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6681a058-6f4e-429a-9c04-da97f216b7e0")
-		)
-		(pin "1"
-			(uuid "e4142cf8-1d1a-4623-b2f3-12f50a9d3143")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "DW60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 477.52 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -25021,6 +23625,160 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 67.31 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0c84549-0d83-4728-8996-660f98aeb789")
+		(property "Reference" "#PWR0258"
+			(at 67.31 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 67.31 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 67.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4290dc15-2d87-4e2c-b7ad-4b25abdd97aa")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
+					(reference "#PWR0258")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 57.15 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1d8cf11-74e2-48c1-b340-a4e062ca22bb")
+		(property "Reference" "#PWR0259"
+			(at 57.15 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP_3V3"
+			(at 57.15 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 57.15 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92c9d981-52b6-4318-97eb-f39af3a4924f")
+		)
+		(instances
+			(project "Galatea Keyboard PCB"
+				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -27717,84 +26475,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
 					(reference "DW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 107.95 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae5bb81-4a88-4bd3-ae0f-77eeaebf1e2b")
-		(property "Reference" "#PWR025"
-			(at 107.95 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 107.95 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 107.95 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "099bc8e2-4be0-4bc1-9e68-712cb15ca434")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/6c1c79b6-e272-48e1-a9e2-a8347359c21e"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

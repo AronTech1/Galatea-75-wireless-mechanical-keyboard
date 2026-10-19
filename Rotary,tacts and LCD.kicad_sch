@@ -9378,12 +9378,6 @@
 		(uuid "10b1d4a1-c2ca-4653-be98-f7bd4aca4a58")
 	)
 	(junction
-		(at 416.56 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "128d103c-e1d9-4f68-bfbe-c4d96a9cf2c2")
-	)
-	(junction
 		(at 295.91 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9739,6 +9733,10 @@
 		(at 367.03 59.69)
 		(uuid "eef0e0aa-4698-4eac-b053-78bb168e014a")
 	)
+	(no_connect
+		(at 367.03 49.53)
+		(uuid "f9ed4e98-e3d0-4c05-b022-126d63529e21")
+	)
 	(wire
 		(pts
 			(xy 35.56 337.82) (xy 43.18 337.82)
@@ -10008,16 +10006,6 @@
 			(type default)
 		)
 		(uuid "17f177b6-c8fc-4022-8a67-096fc1abfa8d")
-	)
-	(wire
-		(pts
-			(xy 415.29 111.76) (xy 416.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1887533b-712b-4960-874c-31e03a8a4912")
 	)
 	(wire
 		(pts
@@ -10711,16 +10699,6 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 115.57) (xy 403.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757cd8ee-fd5f-4f30-940b-399813b48824")
-	)
-	(wire
-		(pts
 			(xy 339.09 125.73) (xy 339.09 133.35)
 		)
 		(stroke
@@ -10861,16 +10839,6 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 111.76) (xy 416.56 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bbe8e1b-7ca6-490a-bfc3-8a160fcbeef1")
-	)
-	(wire
-		(pts
 			(xy 125.73 241.3) (xy 125.73 242.57)
 		)
 		(stroke
@@ -10968,16 +10936,6 @@
 			(type default)
 		)
 		(uuid "92c244dd-56f9-4b16-b6d8-44b18e9e3b19")
-	)
-	(wire
-		(pts
-			(xy 382.27 49.53) (xy 367.03 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9427ecb5-cfb5-4cfd-9dfe-69a0584456de")
 	)
 	(wire
 		(pts
@@ -11651,16 +11609,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 111.76) (xy 403.86 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e320631a-9842-4e55-b8f4-05529c1e68ca")
-	)
-	(wire
-		(pts
 			(xy 346.71 125.73) (xy 346.71 133.35)
 		)
 		(stroke
@@ -11831,16 +11779,6 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 111.76) (xy 403.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62b0a2c-8c49-4d3c-8c67-0d813a5a9e66")
-	)
-	(wire
-		(pts
 			(xy 48.26 354.33) (xy 48.26 351.79)
 		)
 		(stroke
@@ -11938,28 +11876,6 @@
 			(justify left bottom)
 		)
 		(uuid "c15b5012-81b9-49d1-8c19-9e42b8152d2b")
-	)
-	(global_label "SW_2"
-		(shape input)
-		(at 382.27 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "175e6a38-a16e-46fe-88f1-27f6e430d712")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.27 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 	)
 	(global_label "LEDA"
 		(shape input)
@@ -12319,28 +12235,6 @@
 		(uuid "ba0f0417-2528-432c-8799-0cce0d05e823")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 382.27 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SW_2"
-		(shape input)
-		(at 400.05 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d61b1c19-06f4-4474-ba96-26eb9f22da2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 400.05 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,262 +13340,6 @@
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 411.48 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "099ccdf0-7bc3-4560-95f7-bca4a76cb849")
-		(property "Reference" "DT7"
-			(at 409.8925 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WHITE"
-			(at 409.8925 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2290"
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2290"
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 411.48 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "479363a0-2457-48a6-beb1-085baf7e21b7")
-		)
-		(pin "1"
-			(uuid "228dc5b0-8688-45e6-9dfc-41a32a7eb6c0")
-		)
-		(instances
-			(project "Galatea Keyboard PCB"
-				(path "/04167948-25c2-4ca8-b9d8-855756010414/f6cda99c-23a6-4328-98ed-312da4a40ab9"
-					(reference "DT7")
 					(unit 1)
 				)
 			)

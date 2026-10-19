@@ -575,6 +575,12 @@
     },
     "net_colors": {
       "+BATT": "rgb(72, 0, 0)",
+      "/KEYBOARD MATRIX/I2C0_SCL": "rgb(0, 255, 0)",
+      "/KEYBOARD MATRIX/I2C0_SDA": "rgb(0, 255, 0)",
+      "/KEYBOARD MATRIX/I2C1_SCL": "rgb(0, 255, 255)",
+      "/KEYBOARD MATRIX/I2C1_SDA": "rgb(0, 255, 255)",
+      "/MCU SECTION/GPIO54": "rgb(0, 0, 255)",
+      "/MCU SECTION/GPIO6": "rgb(0, 0, 255)",
       "VBUS": "rgb(255, 0, 0)"
     },
     "netclass_assignments": null,
@@ -1190,7 +1196,7 @@
         "uuid": "04167948-25c2-4ca8-b9d8-855756010414"
       }
     ],
-    "used_designators": "D16,D31,D46,D59-60,D74,D84-86,#PWR1,#PWR7,#PWR33-38,#PWR45-46,#PWR49-54,#PWR56-65,#PWR71,#PWR73,#PWR90-91,#PWR93-257,MX16,MX30-31,MX46,MX85-86,SW_2-4,U4-5,U8-19,SW2,SW8,S1,C12-13,C15-18,C29-117,CHG_LED1,J2-4,J8,PG_LED1,Q1-2,Q13,R3,R7-8,R13-53,FPC1-2,X1,L1-3,CN1,TP4-5,TP11,TP15",
+    "used_designators": "D16,D31,D46,D59-60,D74,D84-86,#PWR1,#PWR7,#PWR33-38,#PWR45-46,#PWR49-54,#PWR56-65,#PWR71,#PWR73,#PWR90-91,#PWR93-263,MX16,MX30-31,MX46,MX85-86,SW_2-4,U4-5,U8-19,SW2,SW8,S1,C12-13,C15-18,C29-117,CHG_LED1,J2-4,J8,PG_LED1,Q1-2,Q13,R3,R7-8,R13-53,FPC1-2,X1,L1-3,CN1,TP4-5,TP11,TP15",
     "variants": []
   },
   "sheets": [
