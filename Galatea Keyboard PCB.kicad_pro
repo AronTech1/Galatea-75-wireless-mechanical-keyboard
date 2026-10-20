@@ -212,6 +212,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.127,
         0.15,
         0.2,
         0.254,
@@ -581,6 +582,7 @@
       "/KEYBOARD MATRIX/I2C1_SDA": "rgb(0, 255, 255)",
       "/MCU SECTION/GPIO54": "rgb(0, 0, 255)",
       "/MCU SECTION/GPIO6": "rgb(0, 0, 255)",
+      "ESP_VDD_HP": "rgb(72, 72, 0)",
       "VBUS": "rgb(255, 0, 0)"
     },
     "netclass_assignments": null,
