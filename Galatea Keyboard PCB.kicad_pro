@@ -81,8 +81,8 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -608,7 +608,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/Galatea Keyboard PCB_2.step",
+      "step": "../../../../../Downloads/Galatea Keyboard PCB_4.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -680,7 +680,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -728,13 +728,13 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
