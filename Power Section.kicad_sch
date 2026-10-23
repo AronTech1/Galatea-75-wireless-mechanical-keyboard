@@ -11312,7 +11312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20.6k"
+		(property "Value" "20k"
 			(at 161.29 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11390,6 +11390,17 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4184"
 			(at 158.75 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15662,6 +15673,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2290"
+			(at 100.33 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31e38948-f658-4e8e-826b-e5a9b9f3eece")
 		)
@@ -17241,6 +17263,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C89632"
+			(at 57.15 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f46a9ff2-fdfa-44db-8327-4f80c51e37e0")
 		)
@@ -18545,6 +18578,17 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 344.17 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344022"
 			(at 344.17 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19957,6 +20001,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C4109"
+			(at 87.63 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da5349c6-b218-411f-b8b1-69bfc9785b02")
 		)
@@ -20893,7 +20948,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3833176"
 			(at 143.51 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -24454,6 +24509,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C177342"
+			(at 149.86 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "188d256a-d31c-454f-a412-c611a703df87")
 		)
@@ -24475,10 +24541,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c39abb44-f4d3-4b81-af2e-a49b4c6b26c2")
 		(property "Reference" "TP11"
 			(at 380.746 208.28 90)
@@ -25264,6 +25330,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C344022"
+			(at 334.01 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fe556c46-c845-4d5a-89eb-d938b7d7bae0")
 		)
@@ -25933,6 +26010,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C4109"
+			(at 82.55 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc3c4a67-6a98-4498-a9cb-44be0ef40611")
 		)
@@ -26258,6 +26346,17 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 276.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344022"
 			(at 276.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -30590,6 +30689,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 95.25 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c368609-061a-4d3c-8a10-c0a7daa1a924")
 		)
@@ -31105,6 +31215,17 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 144.78 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22832"
 			(at 144.78 184.15 90)
 			(hide yes)
 			(show_name no)

@@ -14200,7 +14200,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09cde480-4e59-47bb-8a61-cefe8c9f2ec9")
 		(property "Reference" "H12"
@@ -21391,6 +21391,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1549"
+			(at 314.96 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "59f8c75a-e130-4c6b-8732-9100a7438c62")
 		)
@@ -21415,7 +21426,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b8b5a5b-8b7b-4dd8-ba71-fc4d89fc69c2")
 		(property "Reference" "H3"
@@ -21857,7 +21868,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "500e692f-2eaf-46b5-b294-7b349d61d50b")
 		(property "Reference" "H6"
@@ -22480,7 +22491,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part" "C131054"
 			(at 142.24 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -25060,7 +25071,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7030e777-4c62-413a-a365-824bee9de0d5")
 		(property "Reference" "H7"
@@ -26324,6 +26335,17 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 171.45 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
 			(at 171.45 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -27700,6 +27722,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1549"
+			(at 340.36 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77c99128-8a22-498b-94df-74bf8eeb2a90")
 		)
@@ -27801,7 +27834,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90c530ef-3402-462c-a563-0ccc5bb675df")
 		(property "Reference" "H13"
@@ -28703,6 +28736,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 175.26 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08a13cf5-aae2-4342-8356-0ac4fb1d8396")
 		)
@@ -29191,7 +29235,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a01f0fd3-d5ac-474f-bb21-524d31b0f4b9")
 		(property "Reference" "H9"
@@ -29854,7 +29898,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aeed41bd-f3b7-4ce3-b6e1-223e649e651b")
 		(property "Reference" "H10"
@@ -31991,7 +32035,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd71a92e-b612-4ab8-9aae-914c7e74ce14")
 		(property "Reference" "H5"
@@ -32910,7 +32954,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c8ad92f7-2429-40bf-83cb-8f612bb7def9")
 		(property "Reference" "H11"
@@ -35175,7 +35219,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part" "C131054"
 			(at 142.24 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -35973,7 +36017,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8102c6a-adfa-4940-8101-72548f6fd8f6")
 		(property "Reference" "H2"
@@ -39068,7 +39112,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ffffe6b6-7e7d-4d3e-918e-7ac92641f9b8")
 		(property "Reference" "H8"
