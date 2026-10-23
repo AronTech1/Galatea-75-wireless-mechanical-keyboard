@@ -12394,6 +12394,28 @@
 		)
 		(uuid "32f875a7-78f5-4795-8cb5-d320343dd52d")
 	)
+	(hierarchical_label "I2C0_SCL"
+		(shape output)
+		(at 293.37 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39a4b500-5015-46b7-99ab-992cc94a3cc5")
+	)
+	(hierarchical_label "I2C0_SDA"
+		(shape output)
+		(at 293.37 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4857c0d7-5efe-4b70-871d-90d75d69183f")
+	)
 	(hierarchical_label "LCD_BL_PWM"
 		(shape input)
 		(at 36.83 254 180)
@@ -12504,17 +12526,6 @@
 		)
 		(uuid "add0383f-f984-408d-9756-811dc9628631")
 	)
-	(hierarchical_label "I2C1_SDA"
-		(shape output)
-		(at 293.37 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5798a7c-26ac-4d7a-8101-a751833207a9")
-	)
 	(hierarchical_label "DSI_DATA0_P"
 		(shape input)
 		(at 208.28 83.82 180)
@@ -12536,17 +12547,6 @@
 			(justify right)
 		)
 		(uuid "d0c1cdf1-25e9-47ca-a4ee-bf1d372e8207")
-	)
-	(hierarchical_label "I2C1_SCL"
-		(shape output)
-		(at 293.37 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e78634cf-8a1d-4ea9-a86a-23875d839325")
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1kΩ")

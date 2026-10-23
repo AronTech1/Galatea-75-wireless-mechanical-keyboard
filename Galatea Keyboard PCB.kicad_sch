@@ -11,7 +11,7 @@
 	(lib_symbols)
 	(text "PER KEY LEDS"
 		(exclude_from_sim no)
-		(at 217.678 40.894 0)
+		(at 217.678 38.354 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -25,7 +25,7 @@
 	)
 	(text "KEYBOARD MATRIX"
 		(exclude_from_sim no)
-		(at 123.952 39.878 0)
+		(at 123.952 37.338 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -95,46 +95,40 @@
 		(uuid "f675b205-04af-4364-8239-ac561fd0ef2c")
 	)
 	(junction
-		(at 196.85 74.676)
+		(at 114.3 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27fb4522-96db-4b81-8cc9-b2983f9e5b8c")
+		(uuid "07cb0cc3-7325-4beb-b4a4-3ec96a815c00")
 	)
 	(junction
-		(at 200.66 74.676)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b50ce4d-83af-4cc9-9ee9-3603c77b60bb")
-	)
-	(junction
-		(at 140.97 72.136)
+		(at 140.97 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec5b90f-488d-48b8-99ef-7d97dffb2d51")
 	)
 	(junction
-		(at 148.59 74.676)
+		(at 148.59 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441b7415-4de5-44e9-af06-407db941f8f8")
-	)
-	(junction
-		(at 121.92 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "453feef6-3f4d-4846-a2a5-d69d39ebe317")
-	)
-	(junction
-		(at 193.04 72.136)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76c41e2f-47c1-4bde-a776-638ae00cf0ae")
 	)
 	(junction
 		(at 114.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a953b12c-35da-4e5b-8719-376050815e25")
+	)
+	(junction
+		(at 121.92 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b20a7b87-12c0-43aa-9371-27f31620807b")
+	)
+	(junction
+		(at 200.66 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f668791f-3370-47b5-9f3b-9d40a21f9c76")
 	)
 	(wire
 		(pts
@@ -148,7 +142,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 121.92 78.74)
+			(xy 69.85 77.47) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -208,7 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 77.216) (xy 157.48 84.328)
+			(xy 157.48 72.39) (xy 157.48 84.328)
 		)
 		(stroke
 			(width 0)
@@ -218,7 +212,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.136) (xy 193.04 72.136)
+			(xy 140.97 67.31) (xy 193.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -248,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 84.836) (xy 207.01 74.676)
+			(xy 207.01 84.836) (xy 207.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -268,7 +262,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 65.532) (xy 193.04 72.136)
+			(xy 193.04 62.992) (xy 193.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -298,17 +292,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 82.296) (xy 196.85 84.836)
+			(xy 200.66 77.47) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47605ac1-bd75-4d7f-871b-0cb871f7743e")
+		(uuid "4d04e69b-7201-4363-bb73-4e8a63f36734")
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 121.92 84.328)
+			(xy 121.92 62.23) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -348,7 +342,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 65.532) (xy 196.85 74.676)
+			(xy 196.85 62.992) (xy 196.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -358,43 +352,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 84.836) (xy 200.66 81.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ddacd2-07dc-4288-a547-fcade2a681e9")
-	)
-	(wire
-		(pts
-			(xy 196.85 82.296) (xy 193.04 82.296)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e20e510-7140-4a2c-ab04-9b12ee66c759")
-	)
-	(wire
-		(pts
-			(xy 200.66 65.532) (xy 200.66 74.676)
+			(xy 200.66 62.992) (xy 200.66 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "733ff52b-8427-4607-835b-f39ad12a65cb")
-	)
-	(wire
-		(pts
-			(xy 200.66 81.026) (xy 196.85 81.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7406ad09-de55-458c-b7b2-05da68a54987")
 	)
 	(wire
 		(pts
@@ -408,7 +372,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.676) (xy 196.85 74.676)
+			(xy 77.47 99.06) (xy 85.344 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c69f944-d0be-4940-9694-098f15861d6e")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 196.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -418,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 79.756) (xy 163.83 84.328)
+			(xy 163.83 74.93) (xy 163.83 84.328)
 		)
 		(stroke
 			(width 0)
@@ -438,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 79.756) (xy 204.47 79.756)
+			(xy 163.83 74.93) (xy 204.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -448,17 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 81.026) (xy 196.85 74.676)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9378fa65-5ca8-44e9-83f1-97ff3daf6f21")
-	)
-	(wire
-		(pts
-			(xy 157.48 77.216) (xy 200.66 77.216)
+			(xy 157.48 72.39) (xy 200.66 72.39)
 		)
 		(stroke
 			(width 0)
@@ -498,16 +462,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 74.93) (xy 114.3 84.328)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a78be91d-70d4-40c9-bcac-6a2eded6cbd0")
-	)
-	(wire
-		(pts
 			(xy 162.56 140.716) (xy 203.2 140.716)
 		)
 		(stroke
@@ -515,6 +469,16 @@
 			(type default)
 		)
 		(uuid "a93ddf1e-52a6-4616-addd-77e7d8db5f9d")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 114.3 84.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb8002e-9f0d-4b3a-9473-5c5188fa3ef0")
 	)
 	(wire
 		(pts
@@ -528,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 64.77) (xy 114.3 74.93)
+			(xy 114.3 62.23) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -538,43 +502,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.136) (xy 140.97 84.328)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf24ace4-f141-410b-9c6f-4b4cd5e0e9a7")
-	)
-	(wire
-		(pts
-			(xy 204.47 65.532) (xy 204.47 79.756)
+			(xy 204.47 62.992) (xy 204.47 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0723ae9-3de1-412f-a50d-6342892662a6")
-	)
-	(wire
-		(pts
-			(xy 200.66 74.676) (xy 200.66 77.216)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f8e6da-8fad-446b-a07e-f02bd47a2774")
-	)
-	(wire
-		(pts
-			(xy 193.04 82.296) (xy 193.04 72.136)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30e8b7b-abe6-4d27-b383-7af1500bbfa4")
 	)
 	(wire
 		(pts
@@ -618,7 +552,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 69.85 78.74)
+			(xy 69.85 85.09) (xy 69.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -628,23 +562,33 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 64.77) (xy 148.59 74.676)
+			(xy 140.97 62.23) (xy 140.97 84.328)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc9564d1-ba98-4556-baba-a3845f0f7d74")
+		(uuid "cc8feef2-c992-4f6e-b00a-50cc8c0889aa")
 	)
 	(wire
 		(pts
-			(xy 140.97 64.77) (xy 140.97 72.136)
+			(xy 196.85 80.01) (xy 196.85 84.836)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccf53eb2-033a-4581-b418-6ef80ebfff7a")
+		(uuid "d7fd75e9-d93a-4477-9b87-738136a4a815")
+	)
+	(wire
+		(pts
+			(xy 200.66 77.47) (xy 200.66 84.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8537643-2580-47ba-bb52-b672f5872e15")
 	)
 	(wire
 		(pts
@@ -678,13 +622,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.676) (xy 148.59 84.328)
+			(xy 148.59 62.23) (xy 148.59 84.328)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e03965bd-6669-480c-ba01-ed1695207163")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 121.92 84.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2608c8-3b18-4ab9-8bad-c1268731dc87")
 	)
 	(wire
 		(pts
@@ -708,13 +662,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 74.676) (xy 200.66 74.676)
+			(xy 207.01 72.39) (xy 200.66 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f22e8189-cf86-4569-8011-baa2d083dc8a")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89cc1e3-92e1-4fd5-a694-bca43a81496b")
 	)
 	(wire
 		(pts
@@ -1054,6 +1018,16 @@
 				(justify left)
 			)
 		)
+		(pin "ALERT" input
+			(at 85.344 99.06 180)
+			(uuid "306286ff-cba5-4f75-9647-83a853eb26ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414"
@@ -1063,7 +1037,7 @@
 		)
 	)
 	(sheet
-		(at 85.598 16.256)
+		(at 85.598 13.716)
 		(size 87.63 48.514)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1079,7 +1053,7 @@
 		)
 		(uuid "5b0c2094-c91b-478b-b8d7-8f2e66cb84e8")
 		(property "Sheetname" "KEYBOARD MATRIX"
-			(at 84.8864 64.77 90)
+			(at 84.8864 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1090,7 +1064,7 @@
 			)
 		)
 		(property "Sheetfile" "Keyboard Matrix.kicad_sch"
-			(at 173.8126 64.77 90)
+			(at 173.8126 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1101,7 +1075,7 @@
 			)
 		)
 		(pin "I2C0_SCL" output
-			(at 114.3 64.77 270)
+			(at 114.3 62.23 270)
 			(uuid "4dceffb2-4f0c-468a-8c38-86f4c055f0d0")
 			(effects
 				(font
@@ -1111,7 +1085,7 @@
 			)
 		)
 		(pin "I2C0_SDA" output
-			(at 121.92 64.77 270)
+			(at 121.92 62.23 270)
 			(uuid "400eaefb-5bd1-477e-8dad-741cdf18ceac")
 			(effects
 				(font
@@ -1121,7 +1095,7 @@
 			)
 		)
 		(pin "I2C1_SCL" output
-			(at 140.97 64.77 270)
+			(at 140.97 62.23 270)
 			(uuid "70246db3-0abe-45c9-9086-c6a1d14e42f1")
 			(effects
 				(font
@@ -1131,7 +1105,7 @@
 			)
 		)
 		(pin "I2C1_SDA" output
-			(at 148.59 64.77 270)
+			(at 148.59 62.23 270)
 			(uuid "ca5a6960-c741-4294-aee2-bca755365a62")
 			(effects
 				(font
@@ -1149,7 +1123,7 @@
 		)
 	)
 	(sheet
-		(at 185.166 14.732)
+		(at 185.166 12.192)
 		(size 61.214 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1165,7 +1139,7 @@
 		)
 		(uuid "6c1c79b6-e272-48e1-a9e2-a8347359c21e")
 		(property "Sheetname" "RGB LEDs"
-			(at 185.166 14.0204 0)
+			(at 185.166 11.4804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1176,7 +1150,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB LEDs.kicad_sch"
-			(at 185.166 66.1166 0)
+			(at 185.166 63.5766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1187,7 +1161,7 @@
 			)
 		)
 		(pin "I2C1_SCL" output
-			(at 193.04 65.532 270)
+			(at 193.04 62.992 270)
 			(uuid "8575414c-bc23-49cf-b386-23f5386134a6")
 			(effects
 				(font
@@ -1197,7 +1171,7 @@
 			)
 		)
 		(pin "I2C1_SDA" output
-			(at 196.85 65.532 270)
+			(at 196.85 62.992 270)
 			(uuid "ecfd78fc-8208-4514-8749-dcafac83021b")
 			(effects
 				(font
@@ -1207,7 +1181,7 @@
 			)
 		)
 		(pin "LED_INTB" output
-			(at 200.66 65.532 270)
+			(at 200.66 62.992 270)
 			(uuid "b9c11747-1f29-4cf3-8188-d147df5b3247")
 			(effects
 				(font
@@ -1217,7 +1191,7 @@
 			)
 		)
 		(pin "SDB" output
-			(at 204.47 65.532 270)
+			(at 204.47 62.992 270)
 			(uuid "ad97f8a4-2d16-49b8-ac34-7a1cb97cf4d9")
 			(effects
 				(font
@@ -1408,6 +1382,16 @@
 				(justify right)
 			)
 		)
+		(pin "ALERT" input
+			(at 77.47 99.06 0)
+			(uuid "32c91c1a-9847-4961-ab22-2a4a67c68a69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414"
@@ -1492,26 +1476,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "I2C1_SCL" output
-			(at 196.85 84.836 90)
-			(uuid "49906be1-ba74-4029-93e4-be0543c9d500")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C1_SDA" output
-			(at 200.66 84.836 90)
-			(uuid "b0142175-a611-454b-91dd-83fed9db613a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "LED_INTB" output
@@ -1622,6 +1586,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C0_SCL" output
+			(at 196.85 84.836 90)
+			(uuid "262ebcc2-3d94-4f5a-b2b0-ced37b34fdcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" output
+			(at 200.66 84.836 90)
+			(uuid "f82feb7a-293a-4104-9bc3-0d0b783ac330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
