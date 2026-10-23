@@ -432,6 +432,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.006 101.6) (xy 188.214 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40643b1-c46b-4b42-91e5-7d06c3dab65d")
+	)
+	(wire
+		(pts
 			(xy 175.006 115.316) (xy 188.214 115.316)
 		)
 		(stroke
@@ -1028,6 +1038,16 @@
 				(justify left)
 			)
 		)
+		(pin "LCD_RESET" input
+			(at 175.006 101.6 0)
+			(uuid "44f7d325-f62b-4da5-9c06-770ca35c89b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Galatea Keyboard PCB"
 				(path "/04167948-25c2-4ca8-b9d8-855756010414"
@@ -1606,6 +1626,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LCD_RESET" input
+			(at 188.214 101.6 180)
+			(uuid "23316c55-0380-4c3c-9742-4eebed69e0b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

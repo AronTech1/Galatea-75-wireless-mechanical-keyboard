@@ -16270,25 +16270,25 @@
 			(uuid "be2e653d-199a-4258-9cea-3b0a6caf1e39")
 		)
 		(pin "1"
-			(uuid "6df78632-59fd-488c-8bb9-d771b154d300")
+			(uuid "6df78632-59fd-488c-8bb9-d771b154d301")
 		)
 		(pin "2"
 			(uuid "9b2e6b4a-4988-4588-8770-515ff30e5dae")
 		)
 		(pin "3"
-			(uuid "2c058b6f-69fd-41b8-aee0-18e7c349579c")
+			(uuid "2c058b6f-69fd-41b8-aee0-18e7c349579d")
 		)
 		(pin "5"
-			(uuid "27edfd51-3df4-4be3-8187-5ea34352e09f")
+			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a0")
 		)
 		(pin "8"
-			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2c")
+			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2d")
 		)
 		(pin "6"
-			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e4")
+			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e5")
 		)
 		(pin "4"
-			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d0")
+			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d1")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -43589,25 +43589,25 @@
 			(uuid "7d073d3a-3bb4-4519-a921-98d2c017a68b")
 		)
 		(pin "1"
-			(uuid "6df78632-59fd-488c-8bb9-d771b154d301")
+			(uuid "6df78632-59fd-488c-8bb9-d771b154d302")
 		)
 		(pin "2"
 			(uuid "966bb1cc-c556-42d5-96dc-d4ec5a2aee8c")
 		)
 		(pin "3"
-			(uuid "2c058b6f-69fd-41b8-aee0-18e7c349579d")
+			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a0")
 		)
 		(pin "5"
-			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a0")
+			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a3")
 		)
 		(pin "8"
-			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2d")
+			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2e")
 		)
 		(pin "6"
-			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e5")
+			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e8")
 		)
 		(pin "4"
-			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d1")
+			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d4")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -44509,25 +44509,25 @@
 			(uuid "bfa93b1f-f785-4f8a-9a28-a330fc4f191b")
 		)
 		(pin "1"
-			(uuid "6df78632-59fd-488c-8bb9-d771b154d302")
+			(uuid "6df78632-59fd-488c-8bb9-d771b154d303")
 		)
 		(pin "2"
 			(uuid "76a7e1d1-fbe3-479c-9c19-dca7bf661588")
 		)
 		(pin "3"
-			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a0")
+			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a1")
 		)
 		(pin "5"
-			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a3")
+			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a4")
 		)
 		(pin "8"
-			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2e")
+			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2f")
 		)
 		(pin "6"
-			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e8")
+			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e9")
 		)
 		(pin "4"
-			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d4")
+			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d5")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -51005,25 +51005,25 @@
 			(uuid "b43ded41-d9d4-48ff-b9a8-90a3619fb32d")
 		)
 		(pin "1"
-			(uuid "6df78632-59fd-488c-8bb9-d771b154d303")
+			(uuid "6df78632-59fd-488c-8bb9-d771b154d304")
 		)
 		(pin "2"
 			(uuid "f9848e71-f65c-4905-a699-345e40832892")
 		)
 		(pin "3"
-			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a1")
+			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a2")
 		)
 		(pin "5"
-			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a4")
+			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a5")
 		)
 		(pin "8"
-			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa2f")
+			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa30")
 		)
 		(pin "6"
-			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312e9")
+			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312ea")
 		)
 		(pin "4"
-			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d5")
+			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d6")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -51622,7 +51622,7 @@
 			)
 		)
 		(pin "7"
-			(uuid "45aadbbd-0d80-46d9-bd8e-665264aa43d4")
+			(uuid "45aadbbd-0d80-46d9-bd8e-665264aa43d5")
 		)
 		(pin "6"
 			(uuid "b92bd906-a943-4606-b927-724317b4a527")
@@ -51631,19 +51631,19 @@
 			(uuid "1a8126ef-2dff-4dea-8fcc-ccea4714e815")
 		)
 		(pin "5"
-			(uuid "0655e67f-924b-4651-aa76-e47ba3b15913")
+			(uuid "0655e67f-924b-4651-aa76-e47ba3b15914")
 		)
 		(pin "2"
-			(uuid "7fbf45d7-b611-456c-a7c2-9ce5b1246a04")
+			(uuid "7fbf45d7-b611-456c-a7c2-9ce5b1246a05")
 		)
 		(pin "1"
-			(uuid "b5974d16-8d30-443d-82d2-a8eda2cf0be5")
+			(uuid "b5974d16-8d30-443d-82d2-a8eda2cf0be7")
 		)
 		(pin "4"
-			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df326")
+			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df327")
 		)
 		(pin "8"
-			(uuid "35210037-8646-4d85-82cb-8fc3df27a4d1")
+			(uuid "35210037-8646-4d85-82cb-8fc3df27a4d3")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -55831,7 +55831,7 @@
 			(uuid "3cc7c30e-5395-482d-b377-06f63c9b5bbb")
 		)
 		(pin "5"
-			(uuid "0655e67f-924b-4651-aa76-e47ba3b15914")
+			(uuid "0655e67f-924b-4651-aa76-e47ba3b15915")
 		)
 		(pin "2"
 			(uuid "b0fd179a-2c1b-4a19-96b7-6f1b42f64cae")
@@ -55840,7 +55840,7 @@
 			(uuid "b5974d16-8d30-443d-82d2-a8eda2cf0be4")
 		)
 		(pin "4"
-			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df327")
+			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df328")
 		)
 		(pin "8"
 			(uuid "35210037-8646-4d85-82cb-8fc3df27a4d0")
@@ -58792,25 +58792,25 @@
 			)
 		)
 		(pin "7"
-			(uuid "dc664414-eca7-48ef-9605-38c1dd8f97c3")
+			(uuid "dc664414-eca7-48ef-9605-38c1dd8f97c5")
 		)
 		(pin "6"
-			(uuid "6c964500-b270-4f24-bb53-e363da20dd8f")
+			(uuid "6c964500-b270-4f24-bb53-e363da20dd90")
 		)
 		(pin "3"
-			(uuid "3cc7c30e-5395-482d-b377-06f63c9b5bbb")
+			(uuid "3cc7c30e-5395-482d-b377-06f63c9b5bbc")
 		)
 		(pin "5"
-			(uuid "0655e67f-924b-4651-aa76-e47ba3b15914")
+			(uuid "0655e67f-924b-4651-aa76-e47ba3b15916")
 		)
 		(pin "2"
-			(uuid "b0fd179a-2c1b-4a19-96b7-6f1b42f64cae")
+			(uuid "b0fd179a-2c1b-4a19-96b7-6f1b42f64cb0")
 		)
 		(pin "1"
 			(uuid "ea174dbb-428e-464e-b0ba-62e024382eee")
 		)
 		(pin "4"
-			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df327")
+			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df329")
 		)
 		(pin "8"
 			(uuid "71ffef3f-4ecc-4fea-8b6f-a3c3354dbd62")
@@ -63315,28 +63315,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "dc664414-eca7-48ef-9605-38c1dd8f97c4")
+			(uuid "dc664414-eca7-48ef-9605-38c1dd8f97c6")
 		)
 		(pin "6"
-			(uuid "126e42d7-5013-4509-bb21-f2ffcbba7444")
+			(uuid "126e42d7-5013-4509-bb21-f2ffcbba7445")
 		)
 		(pin "3"
-			(uuid "67a7c1f6-9bbc-4570-a036-c0ca7905cc0e")
+			(uuid "67a7c1f6-9bbc-4570-a036-c0ca7905cc0f")
 		)
 		(pin "5"
-			(uuid "0655e67f-924b-4651-aa76-e47ba3b15915")
+			(uuid "0655e67f-924b-4651-aa76-e47ba3b15917")
 		)
 		(pin "2"
-			(uuid "b0fd179a-2c1b-4a19-96b7-6f1b42f64caf")
+			(uuid "b0fd179a-2c1b-4a19-96b7-6f1b42f64cb1")
 		)
 		(pin "1"
-			(uuid "b5974d16-8d30-443d-82d2-a8eda2cf0be6")
+			(uuid "b5974d16-8d30-443d-82d2-a8eda2cf0be8")
 		)
 		(pin "4"
-			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df328")
+			(uuid "046fcdd0-2ce0-4d12-bbef-d4e53f2df32a")
 		)
 		(pin "8"
-			(uuid "35210037-8646-4d85-82cb-8fc3df27a4d2")
+			(uuid "35210037-8646-4d85-82cb-8fc3df27a4d4")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -64886,25 +64886,25 @@
 			(uuid "b9b53cbc-7781-4d34-b347-53bd7552cb3e")
 		)
 		(pin "1"
-			(uuid "6df78632-59fd-488c-8bb9-d771b154d304")
+			(uuid "6df78632-59fd-488c-8bb9-d771b154d305")
 		)
 		(pin "2"
 			(uuid "5df824f5-0c9e-4406-8eef-7e9926e7759d")
 		)
 		(pin "3"
-			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a2")
+			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a3")
 		)
 		(pin "5"
-			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a5")
+			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a6")
 		)
 		(pin "8"
-			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa30")
+			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa31")
 		)
 		(pin "6"
-			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312ea")
+			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312eb")
 		)
 		(pin "4"
-			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d6")
+			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d7")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
@@ -65883,25 +65883,25 @@
 			(uuid "9f238d6a-1434-4a89-badb-f74bcaebe48e")
 		)
 		(pin "1"
-			(uuid "6df78632-59fd-488c-8bb9-d771b154d305")
+			(uuid "6df78632-59fd-488c-8bb9-d771b154d306")
 		)
 		(pin "2"
 			(uuid "c1d1a282-837a-4d34-97a7-ef45fbf6e593")
 		)
 		(pin "3"
-			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a3")
+			(uuid "2c058b6f-69fd-41b8-aee0-18e7c34957a4")
 		)
 		(pin "5"
-			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a6")
+			(uuid "27edfd51-3df4-4be3-8187-5ea34352e0a7")
 		)
 		(pin "8"
-			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa31")
+			(uuid "338521d4-dfad-46d5-8e1f-c057814cfa32")
 		)
 		(pin "6"
-			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312eb")
+			(uuid "d0c40f61-56b3-43d0-b1e9-55a30e6312ec")
 		)
 		(pin "4"
-			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d7")
+			(uuid "cc748c8b-7369-40e6-88cf-6da545fb50d8")
 		)
 		(instances
 			(project "Galatea Keyboard PCB"
