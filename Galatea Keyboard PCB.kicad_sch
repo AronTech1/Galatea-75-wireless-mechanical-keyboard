@@ -125,10 +125,22 @@
 		(uuid "b20a7b87-12c0-43aa-9371-27f31620807b")
 	)
 	(junction
+		(at 193.04 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c045a8cd-2985-4480-bafe-e1b9d0b9f4c8")
+	)
+	(junction
 		(at 200.66 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f668791f-3370-47b5-9f3b-9d40a21f9c76")
+	)
+	(junction
+		(at 196.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe0eb960-0350-4e54-a84a-aa841f9a75ec")
 	)
 	(wire
 		(pts
@@ -332,6 +344,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 69.85) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573dafd7-26e6-4284-a59f-33a7e9a8337d")
+	)
+	(wire
+		(pts
 			(xy 175.006 119.126) (xy 188.214 119.126)
 		)
 		(stroke
@@ -349,6 +371,16 @@
 			(type default)
 		)
 		(uuid "584b283f-a15a-48ca-982b-c6828f12a2ff")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e91d4b1-7cec-4f20-99af-14948ae2f319")
 	)
 	(wire
 		(pts
@@ -422,6 +454,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.006 105.41) (xy 188.214 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2fd934-f2a6-4907-9af0-a751cae068f8")
+	)
+	(wire
+		(pts
 			(xy 157.48 72.39) (xy 200.66 72.39)
 		)
 		(stroke
@@ -439,6 +481,16 @@
 			(type default)
 		)
 		(uuid "a40643b1-c46b-4b42-91e5-7d06c3dab65d")
+	)
+	(wire
+		(pts
+			(xy 213.36 84.836) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cefb0c-e59b-45a9-a9d6-ed4a7db8cc44")
 	)
 	(wire
 		(pts
@@ -479,6 +531,16 @@
 			(type default)
 		)
 		(uuid "a93ddf1e-52a6-4616-addd-77e7d8db5f9d")
+	)
+	(wire
+		(pts
+			(xy 175.006 107.95) (xy 188.214 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99a2241-4615-4355-ba20-fc3d8ea53f92")
 	)
 	(wire
 		(pts
@@ -659,6 +721,16 @@
 			(type default)
 		)
 		(uuid "ee2c6a60-2477-4b8d-931b-781ca4d0df6d")
+	)
+	(wire
+		(pts
+			(xy 217.17 84.836) (xy 217.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef150935-1fb0-4e08-b331-80d22a6a8bcc")
 	)
 	(wire
 		(pts
@@ -1041,6 +1113,26 @@
 		(pin "LCD_RESET" input
 			(at 175.006 101.6 0)
 			(uuid "44f7d325-f62b-4da5-9c06-770ca35c89b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTP_INT" output
+			(at 175.006 105.41 0)
+			(uuid "52e2e386-7d05-40d1-8802-1f44e4ea8256")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTP_RST" output
+			(at 175.006 107.95 0)
+			(uuid "6a26980c-b3d8-4c4c-bd7e-781c0e00238a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,6 +1728,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CTP_INT" output
+			(at 188.214 105.41 180)
+			(uuid "1cf1d232-d2b2-42cb-962d-c247cc8622e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTP_RST" output
+			(at 188.214 107.95 180)
+			(uuid "ea484fb3-a669-4840-87a6-3332671ee27a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" output
+			(at 217.17 84.836 90)
+			(uuid "0e58b14e-197c-4897-8173-f9265b40a3c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" output
+			(at 213.36 84.836 90)
+			(uuid "a4ab04f0-e173-4d76-8f58-06d794801492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

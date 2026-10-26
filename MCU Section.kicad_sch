@@ -10208,6 +10208,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 267.97) (xy 193.04 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7695dc11-c057-4caa-9b0e-eeb7aa2d743f")
+	)
+	(wire
+		(pts
 			(xy 450.85 78.74) (xy 464.82 78.74)
 		)
 		(stroke
@@ -10875,6 +10885,16 @@
 			(type default)
 		)
 		(uuid "a558c229-50ff-43a1-8771-ccee531b77c5")
+	)
+	(wire
+		(pts
+			(xy 189.23 273.05) (xy 193.04 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59c27ca-d967-44a5-9678-bdcf94ef2a60")
 	)
 	(wire
 		(pts
@@ -12995,6 +13015,17 @@
 		)
 		(uuid "99278da9-f39c-4395-80b2-036a4cded6eb")
 	)
+	(hierarchical_label "CTP_RST"
+		(shape output)
+		(at 189.23 273.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a74f512c-646f-4f6e-b686-af223a2d79ee")
+	)
 	(hierarchical_label "DSI_DATA0_P"
 		(shape output)
 		(at 189.23 316.23 180)
@@ -13071,6 +13102,17 @@
 			(justify right)
 		)
 		(uuid "d875e547-7593-4866-90b7-03b1003b103b")
+	)
+	(hierarchical_label "CTP_INT"
+		(shape output)
+		(at 189.23 267.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d99be34f-32b8-4155-83e3-3ae2d3746258")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
