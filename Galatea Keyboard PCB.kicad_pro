@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -498,6 +501,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -574,7 +578,7 @@
       "ESP_VDD_HP": "rgb(72, 72, 0)",
       "VBUS": "rgb(255, 0, 0)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "MIPI_DSI_100R",
@@ -1187,7 +1191,7 @@
         "uuid": "04167948-25c2-4ca8-b9d8-855756010414"
       }
     ],
-    "used_designators": "D16,D31,D46,D59-60,D74,D84-86,#PWR1,#PWR7,#PWR33-38,#PWR45-46,#PWR49-54,#PWR56-65,#PWR68,#PWR71,#PWR73,#PWR90-91,#PWR93-275,MX16,MX30-31,MX46,MX85-86,SW_2-4,U4-5,U8-19,SW2,SW8,S1,C12-18,C29-117,CHG_LED1,J2-4,J8,PG_LED1,Q1-2,Q13,R3,R7-8,R13-58,FPC1-2,X1-2,L1-3,CN1,TP4-5,TP11,TP15,RN2-3,RN7",
+    "used_designators": "#PWR1,#PWR7,#PWR33-38,#PWR45-46,#PWR49-54,#PWR56-65,#PWR68,#PWR71,#PWR73,#PWR90-91,#PWR93-275,C12-18,C29-117,CHG_LED1,CN1,D16,D31,D46,D59-60,D74,D84-86,FPC1-2,H1,J2-4,J8,L1-3,MX16,MX30-31,MX46,MX85-86,PG_LED1,Q1-2,Q13,R3,R7-8,R13-58,RN2-3,RN7,S1,SW2,SW8,SW_2-4,TP4-5,TP11,TP15,U4-5,U8-19,X1-2",
     "variants": []
   },
   "sheets": [
