@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "ali_lib") (type "KiCad") (uri "${KIPRJMOD}/library/ali.kicad_sym") (options "") (descr ""))
 	(lib (name "ali") (type "KiCad") (uri "${KIPRJMOD}/library/ali.kicad_sym") (options "") (descr ""))
+	(lib (name "galatea") (type "KiCad") (uri "${KIPRJMOD}/galatea.kicad_sym") (options "") (descr ""))
 )

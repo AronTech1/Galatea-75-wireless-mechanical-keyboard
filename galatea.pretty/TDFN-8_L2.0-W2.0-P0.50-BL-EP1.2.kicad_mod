@@ -1,0 +1,334 @@
+(footprint "TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.938 0)
+		(layer "F.SilkS")
+		(uuid "0af1bbae-21aa-4f82-91be-e5571d61f232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MAX17048G+T10"
+		(at 0 4.938 0)
+		(layer "F.Fab")
+		(uuid "2e64665c-465d-4a6b-a3d1-b3bb100aac64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C2682616.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb70dc98-89ad-429a-9ff1-65cda6de89a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2aa98dea-c1a2-423c-bef0-2d8f01dc4560")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C2682616"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2993c0e-e7db-43e0-ab1c-f7ee0cfed1d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ADI(亚德诺)/MAXIM(美信)"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d2893bc-c4fb-4955-ad53-3be7c20b3be8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "MAX17048G+T10"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "554bc58a-b9d9-430c-985f-0b194573d294")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current - Rectified" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "563bc9fa-80c3-4155-b26b-e471b92a22d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package size" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "561dbd83-57ad-478a-a37c-68e851b9cd10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - DC Reverse(Vr)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b4bdfa3-58c6-43c7-b15e-a3bf4485c03a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Forward(Vf@If)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82006725-dd48-4fc2-afb8-29753f4ee86c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/POWER SECTION/")
+	(sheetfile "Power Section.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.08 1.08)
+		(end 1.08 -0.57)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a8b915c-1583-4403-b2eb-28a944d7adf5")
+	)
+	(fp_line
+		(start 1.08 -1.08)
+		(end 1.08 0.57)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae01cb1c-0677-47d1-908c-4fe1e8179858")
+	)
+	(fp_line
+		(start -1.08 1.08)
+		(end -1.08 -0.57)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e004152-4f44-47e0-8b58-99662fc1a380")
+	)
+	(fp_line
+		(start -1.08 -1.08)
+		(end -1.08 0.57)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c9182ed-aa3d-4eed-8e27-4f856224befe")
+	)
+	(fp_circle
+		(center -0.75 1.43)
+		(end -0.65 1.43)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f4ad134e-da0d-4441-a408-45524e819d70")
+	)
+	(fp_circle
+		(center -1 1)
+		(end -0.97 1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d80a8c2b-fdea-43a5-b160-85814c9e9aa1")
+	)
+	(fp_circle
+		(center -0.75 1.43)
+		(end -0.65 1.43)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5ffaf335-c609-42d0-9018-012b283bffae")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "551149c4-7b7c-470f-8aa9-f66e481537f9")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60dd93f4-dca6-4ef5-ba6d-904e60ea21e8")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9689d858-6b90-481b-8532-7f500be79b81")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6ddabbe-c4c0-4711-9a61-c9a4094ec79b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2f4eba09-4744-4c4c-a1fc-23924615c7e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2eb85bb3-0524-4608-bc77-08fce1932342")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dfaf99f0-5526-4f0b-9262-47cd30ee2d95")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09e354f3-05d8-4cf7-bc78-a9b119347916")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "767d3140-e2ee-4c13-bade-61cf90d71728")
+	)
+	(pad "5" smd rect
+		(at 0.75 -0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23cd5555-d5c5-4ac5-80af-ac98123948db")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf5ccc51-bc22-45ca-88f6-06b93d3df1e1")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5880e36f-eeea-4ff1-84f3-30a515b2be8f")
+	)
+	(pad "8" smd rect
+		(at -0.75 -0.94 180)
+		(size 0.28 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d190e048-3981-481b-8069-5fe114b1efc4")
+	)
+	(pad "9" smd rect
+		(at 0 0 180)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07bc6af3-58a6-46ab-8f2b-d7083fb87f9b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Dell Pc/Documents/PCB_Design/Fiverr/Benjamin/Galatea Keyboard PCB/library/MAX17048G+T10/MAX17048G+T10.3dshapes/TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

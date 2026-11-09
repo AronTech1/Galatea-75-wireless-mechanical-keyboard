@@ -9,7 +9,146 @@
 		(date "2026-07-16")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "galatea:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "galatea:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -165,12 +304,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
+		(symbol "galatea:GND"
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -178,18 +318,19 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -220,7 +361,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -231,7 +372,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -242,32 +383,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -277,200 +396,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
 					(name ""
 						(effects
 							(font
@@ -486,28 +416,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Schematic Symbols:IS31FL3733B-QFLS4-TR"
+		(symbol "galatea:IS31FL3733B-QFLS4-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1464,13 +1376,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
+		(symbol "galatea:LED"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1478,19 +1389,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1521,7 +1431,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1532,7 +1442,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1543,10 +1453,32 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -1558,7 +1490,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -1570,10 +1502,34 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1581,11 +1537,11 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1593,6 +1549,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1603,13 +1577,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
+		(symbol "galatea:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1617,19 +1590,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "R"
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1660,7 +1632,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1671,7 +1643,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1682,13 +1654,23 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1696,10 +1678,10 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
 					(name ""
 						(effects
 							(font
@@ -1708,6 +1690,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8420,7 +8420,7 @@
 		(uuid "fde2682a-8358-4f80-8809-d2ab376b9b2d")
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 339.09 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -8451,7 +8451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 339.09 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -8704,6 +8704,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f96617ed-c687-4170-820b-1ecaa52e0a1b")
 		)
@@ -8720,7 +8731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 436.88 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -8751,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 436.88 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9004,6 +9015,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 436.88 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "badee22d-227a-4f9b-aa66-ee7785d839c5")
 		)
@@ -9020,7 +9042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 278.13 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -9051,7 +9073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 278.13 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9304,6 +9326,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 278.13 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35564478-66d7-4e79-84e2-247a26644506")
 		)
@@ -9320,7 +9353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 278.13 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -9351,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 278.13 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9604,6 +9637,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 278.13 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "28b6ab88-937d-4239-a1c3-359d6e654149")
 		)
@@ -9620,7 +9664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 457.2 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -9651,7 +9695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 457.2 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9904,6 +9948,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 457.2 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a830ded-d5a4-468d-980e-665bff078428")
 		)
@@ -9920,7 +9975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 220.98 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -9951,7 +10006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 220.98 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10204,6 +10259,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 220.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "995749e4-097a-4d21-ad4d-a2f404af7978")
 		)
@@ -10220,7 +10286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 259.08 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -10251,7 +10317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 259.08 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10504,6 +10570,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e68fb60-3136-4eae-a524-ffd70a77d896")
 		)
@@ -10520,7 +10597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 436.88 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -10551,7 +10628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 436.88 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10804,6 +10881,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 436.88 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7427c3ea-8d8f-44c9-973d-926bec092c5e")
 		)
@@ -10820,7 +10908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 396.24 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -10851,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 396.24 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11104,6 +11192,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 396.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d86c5682-379f-4964-a5c9-6744ffaaa23b")
 		)
@@ -11120,7 +11219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 358.14 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -11151,7 +11250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 358.14 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11404,6 +11503,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 358.14 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "22f538d4-04a7-4b95-8424-2c483a071aea")
 		)
@@ -11420,7 +11530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 457.2 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -11451,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 457.2 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11704,6 +11814,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 457.2 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b6b9222-1c1b-4f12-afef-4a6035f9bdda")
 		)
@@ -11720,7 +11841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 120.65 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -11753,7 +11874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 120.65 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -11984,6 +12105,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 120.65 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f16fbb6a-3cd1-4151-8754-624d5d4a4e25")
 		)
@@ -12000,7 +12132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 396.24 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -12031,7 +12163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 396.24 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12284,6 +12416,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 396.24 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c9755a32-36dc-4d17-b018-5b948846a2ce")
 		)
@@ -12300,7 +12443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 220.98 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -12331,7 +12474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 220.98 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12584,6 +12727,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 220.98 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e8036e4-eaa6-4744-ada6-e8d0af89315b")
 		)
@@ -12600,7 +12754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 298.45 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -12631,7 +12785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 298.45 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12884,6 +13038,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 298.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "032b4976-72fa-4eae-ace8-3b20e96b5c7a")
 		)
@@ -12900,7 +13065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 57.15 262.89 0)
 		(unit 1)
 		(body_style 1)
@@ -12978,7 +13143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 318.77 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -13009,7 +13174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 318.77 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13262,6 +13427,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 318.77 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd4ef2da-6e88-48d9-9e12-690e86001297")
 		)
@@ -13278,7 +13454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 220.98 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -13309,7 +13485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 220.98 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13562,6 +13738,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 220.98 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "833750ec-9cee-417a-8f4e-d585eee3184b")
 		)
@@ -13578,7 +13765,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 107.95 262.89 0)
 		(unit 1)
 		(body_style 1)
@@ -13656,7 +13843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 259.08 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -13687,7 +13874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 259.08 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13940,6 +14127,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ade8c80-23b4-4ed6-9788-89406a8aa826")
 		)
@@ -13956,7 +14154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 259.08 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -13987,7 +14185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 259.08 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -14240,6 +14438,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46f48e84-c24f-4aa3-9170-bcfc63af2030")
 		)
@@ -14256,7 +14465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 240.03 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -14287,7 +14496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 240.03 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14540,6 +14749,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 240.03 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6af41f3d-e875-44b3-bbe7-8dc88d57d6df")
 		)
@@ -14556,7 +14776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 278.13 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -14587,7 +14807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 278.13 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14840,6 +15060,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 278.13 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "17bec92a-48ef-4148-bb3d-687d7e716814")
 		)
@@ -14856,7 +15087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 436.88 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -14887,7 +15118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 436.88 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -15140,6 +15371,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 436.88 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "475437b4-b8ff-46f6-8e21-51aabc9ae661")
 		)
@@ -15156,7 +15398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 339.09 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -15187,7 +15429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 339.09 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -15440,6 +15682,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "981fcccf-c081-4175-96be-a606a1113046")
 		)
@@ -15456,7 +15709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 497.84 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -15487,7 +15740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 497.84 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -15740,6 +15993,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 497.84 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be685619-7ac2-4a21-8944-9e3e7da0cab3")
 		)
@@ -15756,7 +16020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 339.09 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -15787,7 +16051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 339.09 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -16040,6 +16304,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4193d1be-bb81-4b11-87d2-459c2446e55a")
 		)
@@ -16056,7 +16331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 497.84 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -16087,7 +16362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 497.84 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -16340,6 +16615,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 497.84 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1eb97a8-58c4-4486-8eb7-840836521ad4")
 		)
@@ -16356,7 +16642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 298.45 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -16387,7 +16673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 298.45 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16640,6 +16926,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 298.45 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9bb3f764-d5e7-4d20-b082-646317c96794")
 		)
@@ -16656,7 +16953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 107.95 300.99 0)
 		(unit 1)
 		(body_style 1)
@@ -16734,7 +17031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 416.56 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -16765,7 +17062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 416.56 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -17018,6 +17315,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 416.56 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "16a14875-0463-45d4-bcc1-ac30c0e681b4")
 		)
@@ -17034,7 +17342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 278.13 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -17065,7 +17373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 278.13 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -17318,6 +17626,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 278.13 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0627f5c-39de-47c8-8775-c7246b3bd87c")
 		)
@@ -17334,7 +17653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 298.45 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -17365,7 +17684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 298.45 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -17618,6 +17937,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 298.45 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "abc7fa93-8ca9-4ca2-a4e3-a47b9f47f41d")
 		)
@@ -17634,7 +17964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 57.15 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -17667,7 +17997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 57.15 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -17898,6 +18228,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 57.15 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f99e042a-b843-4b82-bdf7-2b4a7c15fbd9")
 		)
@@ -17914,7 +18255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "galatea:+3V3")
 		(at 82.55 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -17991,7 +18332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 436.88 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -18022,7 +18363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 436.88 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -18275,6 +18616,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 436.88 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f8ddfdde-e6fa-49b1-b005-90188cb73639")
 		)
@@ -18291,7 +18643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "galatea:+3V3")
 		(at 133.35 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -18368,7 +18720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 457.2 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -18399,7 +18751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 457.2 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -18652,6 +19004,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 457.2 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7eb01bfe-c869-4ac1-9ca4-4b18543267ba")
 		)
@@ -18668,7 +19031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 318.77 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -18699,7 +19062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 318.77 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -18952,6 +19315,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc1977b0-5cac-433f-9d46-ef8165ef5f0a")
 		)
@@ -18968,7 +19342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 82.55 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -19001,7 +19375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 82.55 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -19232,6 +19606,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ec3935f-9e85-48ce-9785-8942bd995c0d")
 		)
@@ -19248,7 +19633,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 358.14 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -19279,7 +19664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 358.14 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19532,6 +19917,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 358.14 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "829b97d4-634b-48b8-8e53-17f10a4c15d6")
 		)
@@ -19548,7 +19944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 396.24 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -19579,7 +19975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 396.24 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19832,6 +20228,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 396.24 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7074889-64a8-4a97-b2c6-9395ff2c615b")
 		)
@@ -19848,7 +20255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "galatea:+3V3")
 		(at 107.95 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -19925,7 +20332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 477.52 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -19956,7 +20363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 477.52 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -20209,6 +20616,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 477.52 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "24adfa15-9575-49f7-b204-6305529425a1")
 		)
@@ -20225,7 +20643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 416.56 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -20256,7 +20674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 416.56 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -20509,6 +20927,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 416.56 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e9ab6f7-3a60-4df2-bb76-5c486e990d63")
 		)
@@ -20525,7 +20954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 477.52 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -20556,7 +20985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 477.52 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -20809,6 +21238,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 477.52 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1386fbb2-1d85-4de6-9026-c32728cb5baa")
 		)
@@ -20825,7 +21265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 259.08 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -20856,7 +21296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 259.08 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -21109,6 +21549,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "47fa467b-005b-4fc2-b1aa-557e7a8d3f5b")
 		)
@@ -21125,7 +21576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 240.03 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -21156,7 +21607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 240.03 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -21409,6 +21860,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 240.03 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58444852-1d11-41f9-bf4d-b65aebfabd83")
 		)
@@ -21425,7 +21887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 339.09 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -21456,7 +21918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 339.09 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -21709,6 +22171,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d3f37b2-2a7e-4c4d-aca3-69b35c054bba")
 		)
@@ -21725,7 +22198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 67.31 215.9 0)
 		(unit 1)
 		(body_style 1)
@@ -21803,7 +22276,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 416.56 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -21834,7 +22307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 416.56 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -22087,6 +22560,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 416.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43961d1b-59ed-44bf-8096-032887717ad0")
 		)
@@ -22103,7 +22587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 416.56 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -22134,7 +22618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 416.56 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -22387,6 +22871,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 416.56 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4840a43-0105-4642-8a27-7873aaa9c311")
 		)
@@ -22403,7 +22898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 220.98 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -22434,7 +22929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 220.98 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -22687,6 +23182,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 220.98 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9de6cd2e-8d7b-4d10-aef7-09cd67469d9d")
 		)
@@ -22703,7 +23209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 377.19 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -22734,7 +23240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 377.19 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -22987,6 +23493,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 377.19 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8714b260-08b9-42c9-ba01-56414d9a00d5")
 		)
@@ -23003,7 +23520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "galatea:R_Small")
 		(at 57.15 288.29 0)
 		(unit 1)
 		(body_style 1)
@@ -23036,7 +23553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "galatea:R_0402_1005Metric"
 			(at 57.15 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -23267,6 +23784,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 57.15 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "246cd82e-e39d-458d-b851-09f600a3d385")
 		)
@@ -23283,7 +23811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 377.19 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -23314,7 +23842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 377.19 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -23567,6 +24095,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 377.19 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "38f452ed-c456-4e3f-9050-697942e392a6")
 		)
@@ -23583,7 +24122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 436.88 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -23614,7 +24153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 436.88 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -23867,6 +24406,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 436.88 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c306bc0c-88e4-4822-b6ae-b481f1e97e4f")
 		)
@@ -23883,7 +24433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 57.15 300.99 0)
 		(unit 1)
 		(body_style 1)
@@ -23961,7 +24511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 240.03 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -23992,7 +24542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 240.03 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -24245,6 +24795,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 240.03 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "392f3e90-97f9-4e0f-a0c6-506a98554bde")
 		)
@@ -24261,7 +24822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 318.77 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -24292,7 +24853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 318.77 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -24545,6 +25106,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 318.77 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4656eaf2-2e25-4f71-867c-00910e743698")
 		)
@@ -24561,7 +25133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 318.77 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -24592,7 +25164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 318.77 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -24845,6 +25417,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 318.77 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed482b2f-b71f-4ac1-9554-8f4a452d003c")
 		)
@@ -24861,7 +25444,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 477.52 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -24892,7 +25475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 477.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -25145,6 +25728,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 477.52 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6dab1b3d-4586-4029-9c2a-df16746e3e90")
 		)
@@ -25161,7 +25755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 377.19 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -25192,7 +25786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 377.19 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -25445,6 +26039,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 377.19 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c52406b5-f3be-4471-bfae-8cca4906ee9d")
 		)
@@ -25461,7 +26066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 457.2 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -25492,7 +26097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 457.2 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -25745,6 +26350,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 457.2 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "836fdd56-8cff-47b0-8985-8e0d2eea75cd")
 		)
@@ -25761,7 +26377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 259.08 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -25792,7 +26408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 259.08 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -26045,6 +26661,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "75b0c7fa-c6f8-44de-b8cd-39af3d603ab1")
 		)
@@ -26061,7 +26688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 133.35 262.89 0)
 		(unit 1)
 		(body_style 1)
@@ -26139,7 +26766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "galatea:+3V3")
 		(at 67.31 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -26216,7 +26843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "galatea:+3V3")
 		(at 57.15 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -26293,7 +26920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 240.03 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -26324,7 +26951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 240.03 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -26577,6 +27204,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 240.03 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "453ff5d2-cd10-4b98-9480-d60353ef6e3d")
 		)
@@ -26593,7 +27231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 436.88 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -26624,7 +27262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 436.88 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -26877,6 +27515,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 436.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e8b381d-a1cf-4f3e-a03b-895a990b4990")
 		)
@@ -26893,7 +27542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 377.19 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -26924,7 +27573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 377.19 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -27177,6 +27826,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 377.19 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f94c784-0035-4291-9319-75c19088c607")
 		)
@@ -27193,7 +27853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 396.24 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -27224,7 +27884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 396.24 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -27477,6 +28137,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 396.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e8d78d3-ac8d-4269-9dcc-2ba0f725db39")
 		)
@@ -27493,7 +28164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 339.09 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -27524,7 +28195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 339.09 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -27777,6 +28448,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91f1d3df-acca-4a2a-9550-a047de2395d7")
 		)
@@ -27793,7 +28475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 457.2 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -27824,7 +28506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 457.2 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -28077,6 +28759,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 457.2 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc14006b-2f31-46fc-8d7d-83c8e3501249")
 		)
@@ -28093,7 +28786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 100.33 215.9 0)
 		(unit 1)
 		(body_style 1)
@@ -28171,7 +28864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 358.14 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -28202,7 +28895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 358.14 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -28455,6 +29148,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2d309966-d58b-434d-a41c-fe8294260a92")
 		)
@@ -28471,7 +29175,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "galatea:GND")
 		(at 82.55 262.89 0)
 		(unit 1)
 		(body_style 1)
@@ -28549,7 +29253,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "galatea:R_Small")
 		(at 107.95 288.29 0)
 		(unit 1)
 		(body_style 1)
@@ -28582,7 +29286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "galatea:R_0402_1005Metric"
 			(at 107.95 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -28813,6 +29517,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 107.95 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1bcd801-4396-4efa-b7c8-51d9a092d12f")
 		)
@@ -28829,7 +29544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 457.2 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -28860,7 +29575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 457.2 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -29113,6 +29828,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 457.2 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f500569-c70e-42db-a3b3-146e2491b872")
 		)
@@ -29129,7 +29855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 220.98 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -29160,7 +29886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 220.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -29413,6 +30139,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 220.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "449e992b-031a-46f3-99b3-d2d3293076f4")
 		)
@@ -29429,7 +30166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 339.09 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -29460,7 +30197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 339.09 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -29713,6 +30450,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "febe7891-01c7-41f4-a196-826cf23b6872")
 		)
@@ -29729,7 +30477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 477.52 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -29760,7 +30508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 477.52 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -30013,6 +30761,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 477.52 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af86bd27-8240-4cb8-942f-2ab06b4475ed")
 		)
@@ -30029,7 +30788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 298.45 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -30060,7 +30819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 298.45 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -30313,6 +31072,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 298.45 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "019b2f34-a316-40ea-be3b-62b3446dd2e5")
 		)
@@ -30329,7 +31099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 477.52 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -30360,7 +31130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 477.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -30613,6 +31383,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 477.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b70fc4aa-9347-4994-ba90-bdbce293fea6")
 		)
@@ -30629,7 +31410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 95.25 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -30662,7 +31443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 95.25 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -30893,6 +31674,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 95.25 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eca33a3e-38f0-43f2-904a-b1571a46fb5e")
 		)
@@ -30909,7 +31701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 358.14 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -30940,7 +31732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 358.14 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -31193,6 +31985,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 358.14 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "728e2206-b045-4907-8e3d-76e83e6c0f48")
 		)
@@ -31209,7 +32012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 416.56 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -31240,7 +32043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 416.56 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -31493,6 +32296,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 416.56 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "94f32c97-48c4-4cac-8988-828e85c486e4")
 		)
@@ -31509,7 +32323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 220.98 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -31540,7 +32354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 220.98 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -31793,6 +32607,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 220.98 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c242dd20-a173-4736-baf8-b016853d707f")
 		)
@@ -31809,7 +32634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 107.95 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -31842,7 +32667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 107.95 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -32073,6 +32898,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 107.95 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "259ee0ae-c48f-41f1-9d7e-0690f0e1b459")
 		)
@@ -32089,7 +32925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 416.56 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -32120,7 +32956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 416.56 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -32373,6 +33209,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 416.56 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b17cab5-f5eb-4f73-b482-6bef9985b5aa")
 		)
@@ -32389,7 +33236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 278.13 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -32420,7 +33267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -32673,6 +33520,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 278.13 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a653551-ce32-4dc9-bb6a-9f917d92b694")
 		)
@@ -32689,7 +33547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Schematic Symbols:IS31FL3733B-QFLS4-TR")
+		(lib_id "galatea:IS31FL3733B-QFLS4-TR")
 		(at 105.41 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -32720,7 +33578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm"
+		(property "Footprint" "galatea:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm"
 			(at 106.68 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -32952,6 +33810,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 105.41 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "29"
 			(uuid "e4f79800-91b7-48cf-9b61-95c9a8a3624f")
 		)
@@ -33109,7 +33978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 477.52 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -33140,7 +34009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 477.52 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -33393,6 +34262,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 477.52 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a7f74e90-ab5e-4eae-8766-d8d74fe813f3")
 		)
@@ -33409,7 +34289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 259.08 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -33440,7 +34320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 259.08 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -33693,6 +34573,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 259.08 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87c34fff-e9c8-4448-ad4e-fe9e3670089b")
 		)
@@ -33709,7 +34600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 396.24 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -33740,7 +34631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 396.24 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -33993,6 +34884,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 396.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc03ec75-904a-4aa0-a9b8-1249d20c4eb9")
 		)
@@ -34009,7 +34911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 69.85 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -34042,7 +34944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 69.85 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -34273,6 +35175,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 69.85 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ae5fa32-16cc-4141-a798-65ad7c110b7e")
 		)
@@ -34289,7 +35202,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 318.77 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -34320,7 +35233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 318.77 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -34573,6 +35486,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 318.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7b02d2b7-15d1-42f5-a1c2-3f8e09a9034b")
 		)
@@ -34589,7 +35513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 358.14 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -34620,7 +35544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 358.14 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -34873,6 +35797,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 358.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3828c441-70cf-4489-8f13-ba390655ca80")
 		)
@@ -34889,7 +35824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 298.45 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -34920,7 +35855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 298.45 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -35173,6 +36108,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 298.45 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dfc93f74-3498-41d0-b581-7d10309da200")
 		)
@@ -35189,7 +36135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "galatea:C_Small")
 		(at 133.35 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -35222,7 +36168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "galatea:C_0402_1005Metric"
 			(at 133.35 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -35453,6 +36399,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 133.35 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4605489-f4df-46d1-95d1-c8277c5fd545")
 		)
@@ -35469,7 +36426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "galatea:LED")
 		(at 377.19 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -35500,7 +36457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "galatea:LED_0603_1608Metric"
 			(at 377.19 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -35743,6 +36700,17 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 377.19 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 377.19 205.74 0)
 			(hide yes)
 			(show_name no)
