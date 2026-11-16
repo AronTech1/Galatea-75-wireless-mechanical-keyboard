@@ -1141,6 +1141,18 @@
           "label": "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)",
           "name": "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1191,7 +1203,7 @@
         "uuid": "04167948-25c2-4ca8-b9d8-855756010414"
       }
     ],
-    "used_designators": "#PWR1,#PWR7,#PWR33-38,#PWR45-46,#PWR49-54,#PWR56-65,#PWR68,#PWR71,#PWR73,#PWR90-91,#PWR93-275,C12-18,C29-117,CHG_LED1,CN1,D16,D31,D46,D59-60,D74,D84-86,FPC1-2,H1,J2-4,J8,L1-3,MX16,MX30-31,MX46,MX85-86,PG_LED1,Q1-2,Q13,R3,R7-8,R13-58,RN2-3,RN7,S1,SW2,SW8,SW_2-4,TP4-5,TP11,TP15,U4-5,U8-19,X1-2",
+    "used_designators": "#PWR1,#PWR7,#PWR33-38,#PWR45-46,#PWR49-54,#PWR56-65,#PWR68,#PWR71,#PWR73,#PWR90-91,#PWR93-277,C12-18,C29-117,CHG_LED1,CN1,D16,D31,D46,D59-60,D74,D84-86,FPC1-2,H1,J2-4,J8,L1-3,MX16,MX30-31,MX46,MX85-86,PG_LED1,Q1-2,Q13,R3,R7-8,R13-59,RN2-3,RN7,S1,SW2,SW8,SW_2-4,TP4-5,TP11,TP15,U4-5,U8-19,X1-2",
     "variants": []
   },
   "sheets": [
